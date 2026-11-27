@@ -15,12 +15,12 @@ Le périmètre recensé dans le README comprend :
 - Management et Leadership : 9 chapitres ;
 - Gestion des compétences : 7 chapitres.
 
-Ces nombres décrivent le plan pédagogique recensé. Aucun fichier source n'est ajouté par ce seul inventaire. Les niveaux de licence restent « à confirmer » tant qu'une source ou une validation ne les établit pas.
+Un support source de 22 pages (`cours gestion de projet licence.docx`) a été transcrit dans `docs/cours/source-integrale-cours-gestion-projet-licence.md`. Il couvre les deux cours et contient des plans, exercices, évaluations, QCM et corrigés attendus. Les passages sont indexés avec repères de pages. **Statut : extraction à vérifier** ; le DOCX binaire original n'est pas encore archivé dans le dépôt. Le premier cours mentionne M1 dans son en-tête et Licence 3 dans ses évaluations : ces indications sont conservées sans harmonisation.
 
 ## Limites techniques actuelles
 
 - Le catalogue et l'index sont des fichiers versionnés dans Git ; ce n'est pas encore un stockage privé multi-utilisateur ni un téléversement permanent depuis l'interface.
-- L'index initial ne contient aucun passage.
+- L'index contient les passages de la transcription source ; leur fidélité doit être relue contre le DOCX original.
 - La recherche actuelle est une recherche littérale simple sur les passages indexés, sans classement sémantique.
 - L'interface ne permet pas encore de téléverser, versionner ou supprimer des documents.
 - Le stockage objet, l'authentification, les contrôles d'accès, l'extraction persistante, l'OCR et les tâches de traitement restent à réaliser.
