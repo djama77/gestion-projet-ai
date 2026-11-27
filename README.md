@@ -123,3 +123,18 @@ Une page dédiée est disponible à la route `/tp-l3` :
 - l'API `/api/tp-l3` lit les sujets et corrigés versionnés dans `docs/evaluations/` pour contextualiser ses réponses.
 
 Le lien « TP Licence 3 » est accessible depuis la page d'accueil. Les fonctions d'assistance nécessitent une clé API OpenAI configurée côté serveur. Les jeux de données générés sont des exemples synthétiques, non des observations réelles. Le niveau de difficulté est une consigne transmise au tuteur ; il ne modifie pas encore automatiquement la distribution statistique des données.
+
+## Examens, devoirs et correcteur intelligent — Licence
+
+Une nouvelle interface est disponible sur `/examens` :
+- sujets d'entraînement préconfigurés pour Licence 1, Licence 2 et Licence 3 ;
+- sujets modifiables et barèmes ajustables avant utilisation ;
+- rédaction directe d'une copie ou import d'un PDF texte via le service d'extraction existant ;
+- correction IA question par question, points partiels, vérification des calculs et explication des erreurs ;
+- rapport avec note indicative, appréciation et plan de progression ;
+- téléchargement d'un bulletin de correction au format Word DOCX, généré à la demande sans archivage automatique ;
+- API serveur `/api/examens/correct`, utilisant la clé OpenAI uniquement côté serveur.
+
+Les sujets et corrigés de référence sont dans `docs/evaluations/EXAMENS_LICENCE_GESTION_PROJET.md`. La spécification fonctionnelle est dans `docs/specifications/correcteur-examens-licence.md`.
+
+**Limites et précautions :** les notes sont indicatives et non officielles ; une validation humaine reste nécessaire. L'import de copie prend en charge les PDF contenant du texte ; les PDF scannés peuvent nécessiter un OCR. Les formats L'import DOCX de copies n'est pas inclus dans cette première version. Le bulletin de correction est exportable en DOCX. Les copies ne sont pas enregistrées dans une bibliothèque persistante par ce module. Le service nécessite `OPENAI_API_KEY` configurée côté serveur.
