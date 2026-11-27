@@ -86,6 +86,10 @@ Une première interface de mise en pratique est disponible sur la route `/atelie
 
 Le schéma de référence proposé pour la bibliothèque privée et la persistance des projets est dans `supabase/schema.sql`. Il n'a pas été appliqué à un projet Supabase. Voir `docs/architecture/MISE_EN_SERVICE_PERSISTANCE_CLOUD.md` avant toute activation.
 
+## Bibliothèque documentaire — premier incrément
+
+Une première interface de catalogue est accessible sur `/bibliotheque`, avec une route `GET /api/library` et une recherche littérale dans les passages présents dans l'index versionné. Le catalogue et l'index sont dans `docs/catalogues/`. Le corpus initial ne contient encore aucun support source ni passage indexé : les collections affichées reflètent uniquement le périmètre pédagogique recensé. Voir `docs/architecture/ETAT_IMPLEMENTATION_BIBLIOTHEQUE.md`.
+
 ## Statut de la bibliothèque documentaire et du connecteur MCP
 
 Les spécifications décrivent une bibliothèque privée, versionnée et un connecteur MCP en lecture seule. Elles ne signifient pas que le stockage, l'indexation, l'authentification, le serveur MCP ou un fournisseur cloud sont déjà configurés. Le choix du fournisseur et les éventuels coûts doivent être validés avant leur activation. La compatibilité MCP doit être vérifiée client par client.
