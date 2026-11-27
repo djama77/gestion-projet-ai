@@ -9,8 +9,8 @@ type ImportedDocument = { name: string; pageCount: number; extractedPages: numbe
 const suggestions = [
   "Explique-moi le cours simplement",
   "Prépare une fiche de révision",
-  "Propose un devoir avec corrigé détaillé",
-  "Aide-moi à préparer un TP à partir du cours"
+  "Prépare un TP complet de gestion des risques avec données et corrigé",
+  "Crée un exercice de gestion des compétences avec matrice et corrigé détaillé"
 ];
 
 export default function Home() {
@@ -112,11 +112,11 @@ export default function Home() {
       </label>
       {document && <div className="document-status">
         <strong>{document.name}</strong>
-        <span>{document.pageCount} pages · {document.extractedPages} pages avec texte · {document.characterCount.toLocaleString("fr-FR")} caractères extraits</span>
+        <span>{document.pageCount ? document.pageCount + " pages · " : ""}{document.extractedPages} segments avec texte · {document.characterCount.toLocaleString("fr-FR")} caractères extraits</span>
         <span className={document.ocrRequired ? "warning-text" : "success-text"}>{document.ocrRequired ? "OCR nécessaire pour certaines pages" : "Extraction du texte réussie"}</span>
       </div>}
       {notice && <p className="notice">{notice}</p>}
-      <p className="storage-note">Important : cette version conserve le document uniquement dans la session du navigateur. Il n&apos;est pas encore archivé dans une bibliothèque permanente. Les PDF scannés nécessitent encore un module OCR.</p>
+      <p className="storage-note">Important : les documents importés sont utilisés uniquement pendant la session. Ils ne sont pas encore archivés dans une bibliothèque permanente. Les PDF scannés nécessitent un module OCR.</p>
     </section>
 
     <section className="chat-card">
