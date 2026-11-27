@@ -1,25 +1,42 @@
 {
   "schema_version": "1.0.0",
-  "catalog_status": "initial_inventory",
+  "catalog_status": "source_imported_needs_review",
   "updated_at": "2026-11-27",
-  "notice": "Ce catalogue décrit le périmètre pédagogique recensé. Il ne prouve pas que les supports originaux sont présents dans le dépôt.",
+  "notice": "Un support source de 22 pages a été transcrit et indexé. L'extraction textuelle est consultable, mais doit être relue avant validation définitive ; le fichier DOCX binaire original n'est pas encore archivé dans ce dépôt.",
   "courses": [
     {
       "course_id": "management-leadership",
       "title": "Management et Leadership",
       "expected_chapter_count": 9,
-      "level": "unknown",
-      "inventory_status": "inventory_only",
-      "source_documents": []
+      "level": "M1 (en-tête du cours) ; Licence 3 (évaluations présentes dans le support)",
+      "inventory_status": "source_extracted_needs_review",
+      "source_documents": [
+        "cours-gestion-projet-licence-2026-11-27"
+      ]
     },
     {
       "course_id": "gestion-competences",
       "title": "Gestion des compétences",
       "expected_chapter_count": 7,
-      "level": "unknown",
-      "inventory_status": "inventory_only",
-      "source_documents": []
+      "level": "Licence 3 (indiqué dans le support)",
+      "inventory_status": "source_extracted_needs_review",
+      "source_documents": [
+        "cours-gestion-projet-licence-2026-11-27"
+      ]
     }
   ],
-  "documents": []
+  "documents": [
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source complet (22 pages)",
+      "source_filename": "cours gestion de projet licence.docx",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "source_format": "DOCX — transcription textuelle",
+      "page_count": 22,
+      "language": "fr",
+      "ingestion_status": "needs_review",
+      "version": "1",
+      "notes": "Le support réunit Management et Leadership (9 chapitres attendus) et Gestion des compétences (7 chapitres attendus), avec évaluations, exercices, cas pratiques, QCM et corrigés attendus. Les niveaux M1 et Licence 3 coexistent dans les mentions du premier cours ; ne pas harmoniser sans validation."
+    }
+  ]
 }
