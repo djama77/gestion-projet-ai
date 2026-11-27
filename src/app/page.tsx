@@ -239,7 +239,7 @@ export default function Home() {
         <button type="button" className="remove-document" onClick={() => { setSources([]); setDocument(null); setNotice("Le support a été retiré de la séance."); }}>Retirer ce support</button>
       </div>}
       {notice && <p className="notice upload-notice">{notice}</p>}
-      <p className="storage-note">Confidentialité : le fichier est traité pour la séance et n'est pas conservé dans une bibliothèque permanente. Les PDF scannés ne sont pas encore traités par OCR.</p>
+      <p className="storage-note">Confidentialité : le fichier est traité pour la séance et n&apos;est pas conservé dans une bibliothèque permanente. Les PDF scannés ne sont pas encore traités par OCR.</p>
     </section>
 
     <section className="chat-card">
