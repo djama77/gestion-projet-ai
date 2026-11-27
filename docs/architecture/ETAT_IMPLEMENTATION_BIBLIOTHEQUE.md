@@ -1,40 +1,40 @@
 # Bibliothèque documentaire — état d'implémentation
 
-## Ce qui est ajouté dans le premier incrément
+## Ce qui est présent dans le dépôt
 
 - Un catalogue versionné dans `docs/catalogues/corpus.json`.
-- Un index de recherche initial dans `docs/catalogues/index.json`.
-- Une route serveur `GET /api/library` qui expose le catalogue et les passages indexés.
-- Un paramètre `q` pour rechercher dans les passages réellement présents dans l'index.
-- Une interface `/bibliotheque` qui présente les collections recensées, l'état du corpus et les résultats de recherche avec provenance.
-- Un affichage explicite du corpus vide : aucune source n'est présentée comme déjà assimilée.
+- Un index de recherche dans `docs/catalogues/index.json`.
+- Une route serveur `GET /api/library` et une interface `/bibliotheque` déjà présentes dans le dépôt.
+- Une transcription textuelle du support source de 22 pages : `docs/cours/source-integrale-cours-gestion-projet-licence.md`.
+- Un cours développé en 9 chapitres : `docs/cours/management-leadership/COURS_DEVELOPPE_9_CHAPITRES.md`.
+- Un cours développé en 7 chapitres : `docs/cours/gestion-competences/COURS_DEVELOPPE_7_CHAPITRES.md`.
 
-## Contenu initial attesté
+## Contenu pédagogique ajouté
 
-Le périmètre recensé dans le README comprend :
-- Management et Leadership : 9 chapitres ;
-- Gestion des compétences : 7 chapitres.
+Les 16 chapitres développés comportent des explications structurées, des exemples liés à la gestion de projet, des exercices avec corrections proposées et des points de révision. Ils complètent le support source sans le remplacer.
 
-Un support source de 22 pages (`cours gestion de projet licence.docx`) a été transcrit dans `docs/cours/source-integrale-cours-gestion-projet-licence.md`. Il couvre les deux cours et contient des plans, exercices, évaluations, QCM et corrigés attendus. Les passages sont indexés avec repères de pages. **Statut : extraction à vérifier** ; le DOCX binaire original n'est pas encore archivé dans le dépôt. Le premier cours mentionne M1 dans son en-tête et Licence 3 dans ses évaluations : ces indications sont conservées sans harmonisation.
+L'index comprend 59 passages au total : les 43 passages initialement importés du support source et 16 passages correspondant aux chapitres développés. Les passages développés sont identifiés par le statut `COMPLEMENT_PEDAGOGIQUE_A_RELIRE` et n'ont pas de pagination du document original.
+
+## Réserves documentaires
+
+- Le support source de 22 pages a été transcrit ; sa fidélité doit encore être relue contre le DOCX original.
+- Le DOCX binaire original n'est pas archivé dans ce dépôt.
+- Le premier cours porte la mention M1 dans son en-tête et Licence 3 dans ses évaluations : les deux indications sont conservées.
+- Les exercices nouvellement créés et leurs corrections sont des compléments pédagogiques indicatifs, non des corrigés officiels.
+- Les évaluations, QCM, sujets et corrigés attendus du support source restent dans la transcription d'origine.
 
 ## Limites techniques actuelles
 
-- Le catalogue et l'index sont des fichiers versionnés dans Git ; ce n'est pas encore un stockage privé multi-utilisateur ni un téléversement permanent depuis l'interface.
-- L'index contient les passages de la transcription source ; leur fidélité doit être relue contre le DOCX original.
+- Le catalogue et l'index sont versionnés dans Git ; ce n'est pas encore un stockage privé multi-utilisateur ni un téléversement permanent depuis l'interface.
 - La recherche actuelle est une recherche littérale simple sur les passages indexés, sans classement sémantique.
-- L'interface ne permet pas encore de téléverser, versionner ou supprimer des documents.
+- L'interface ne permet pas nécessairement d'éditer les cours ou de les téléverser depuis l'application.
 - Le stockage objet, l'authentification, les contrôles d'accès, l'extraction persistante, l'OCR et les tâches de traitement restent à réaliser.
-- Aucune connexion Supabase n'est activée ; le fournisseur de stockage « autre » reste à préciser.
+- Aucune connexion Supabase n'est activée.
 
-## Contrôle de vérité documentaire
+## Vérifications à effectuer avant de déclarer l'assimilation complète
 
-Un résultat doit provenir d'un passage effectivement indexé. Les références de page ne sont affichées que si elles figurent dans les métadonnées du passage. Les cours présents dans le plan mais sans fichier source restent des collections recensées, pas des cours assimilés.
-
-## Prochaine tranche
-
-1. Choisir le mode de stockage alternatif (par exemple dépôt privé versionné ou stockage objet compatible S3) et confirmer ses contraintes.
-2. Ajouter un import serveur avec contrôle MIME, taille, empreinte SHA-256 et détection de doublons.
-3. Extraire les PDF avec conservation des numéros de page et stocker l'original et les passages.
-4. Ajouter le versionnage et l'historique des métadonnées.
-5. Implémenter l'authentification et les tests d'isolation avant l'ouverture à plusieurs utilisateurs.
-6. Ajouter DOCX/PPTX puis OCR après validation des coûts et de la qualité.
+1. Relire la transcription source contre le DOCX original.
+2. Contrôler le rendu de la page `/bibliotheque` et la récupération des 59 passages par `GET /api/library`.
+3. Tester des recherches ciblées dans les 16 chapitres développés.
+4. Vérifier que le tuteur applicatif transmet bien les résultats de recherche au modèle lorsqu'il répond aux questions de cours.
+5. Tester l'absence de confusion entre contenu source, compléments pédagogiques et corrigés officiels.
