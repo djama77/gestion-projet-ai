@@ -48,11 +48,10 @@ export default function BibliothequePage() {
   }, []);
 
   useEffect(() => {
-    if (!data || query.trim().length < 2) return;
     let active = true;
     const controller = new AbortController();
     const timeout = window.setTimeout(() => {
-      fetch("/api/library?q=" + encodeURIComponent(query.trim()), { signal: controller.signal })
+      fetch(query.trim().length >= 2 ? "/api/library?q=" + encodeURIComponent(query.trim()) : "/api/library", { signal: controller.signal })
         .then((response) => response.json() as Promise<LibraryResponse>)
         .then((result) => { if (active) setData(result); })
         .catch(() => undefined);
