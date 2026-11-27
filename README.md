@@ -99,3 +99,14 @@ Les spécifications décrivent une bibliothèque privée, versionnée et un conn
 ## Gouvernance du corpus
 
 Un document n'est considéré comme assimilé qu'après conservation de l'original, extraction contrôlée, validation des métadonnées et indexation vérifiée. Les réponses doivent citer les pages ou sections réellement retrouvées et signaler toute information absente des supports importés.
+
+
+## TP Licence 3 — Management, leadership et gestion des compétences
+
+La série de 10 TP et les corrigés détaillés question par question sont conservés dans le dépôt :
+- `docs/evaluations/TP_L3_management_leadership_competences.md` : sujets et consignes.
+- `docs/evaluations/CORRIGES_10_TP_L3_question_par_question.md` : corrigés pédagogiques détaillés.
+- `docs/datasets/generation-jeux-donnees-TP-L3.md` : règles de génération, variables, contrôles et usages pédagogiques.
+- `scripts/generate-tp-datasets.mjs` : générateur déterministe de jeux de données CSV et JSON pour les dix TP.
+
+Les données générées sont fictives, identifiées comme simulées et destinées à l'entraînement. Les corrections restent indicatives et ne sont pas présentées comme officielles.
