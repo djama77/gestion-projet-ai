@@ -72,9 +72,9 @@ Une première étape permet de sélectionner un PDF, d'extraire le texte page pa
 - La recherche durable, les comptes utilisateurs, les exports DOCX/PDF et le suivi de progression restent à développer.
 - Le contexte transmis au tuteur est limité ; le prototype ne garantit pas la récupération de tous les passages d'un cours volumineux.
 
-## Atelier pratique de gestion de projet (premier lot)
+## Outils pratiques utilisés comme supports d'apprentissage
 
-Une première interface de mise en pratique est disponible sur la route `/atelier` :
+Une interface expérimentale est disponible sur la route `/atelier`. Elle sert uniquement de support pédagogique pour pratiquer les méthodes vues en cours, et non de module principal de pilotage de projets professionnels :
 - WBS : découpage des activités, responsables, dates et avancement ;
 - Gantt : représentation visuelle des périodes saisies ;
 - RACI : attribution R/A/C/I par activité ;
