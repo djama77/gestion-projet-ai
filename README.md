@@ -110,3 +110,16 @@ La série de 10 TP et les corrigés détaillés question par question sont conse
 - `scripts/generate-tp-datasets.mjs` : générateur déterministe de jeux de données CSV et JSON pour les dix TP.
 
 Les données générées sont fictives, identifiées comme simulées et destinées à l'entraînement. Les corrections restent indicatives et ne sont pas présentées comme officielles.
+
+
+## Espace interactif des TP Licence 3
+
+Une page dédiée est disponible à la route `/tp-l3` :
+- sélection des dix TP de Management, Leadership et Gestion des compétences ;
+- présentation des objectifs, compétences et questions de travail ;
+- génération côté navigateur de jeux de données pédagogiques simulées ;
+- export CSV et JSON, avec graine reproductible ;
+- demande de guide de réalisation ou de corrigé détaillé au tuteur IA ;
+- l'API `/api/tp-l3` lit les sujets et corrigés versionnés dans `docs/evaluations/` pour contextualiser ses réponses.
+
+Le lien « TP Licence 3 » est accessible depuis la page d'accueil. Les fonctions d'assistance nécessitent une clé API OpenAI configurée côté serveur. Les jeux de données générés sont des exemples synthétiques, non des observations réelles. Le niveau de difficulté est une consigne transmise au tuteur ; il ne modifie pas encore automatiquement la distribution statistique des données.
