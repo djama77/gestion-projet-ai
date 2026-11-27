@@ -51,7 +51,7 @@ Plateforme cloud-first, accessible sur Internet et adaptée aux ordinateurs, tab
 
 Les corrigés indicatifs ne remplacent pas les corrections officielles de l'établissement.
 
-## Modules pédagogiques spécifiés
+## Atelier mémoire Licence\n\n- Route applicative : `/memoire` — cadrage du sujet, génération du plan, rédaction par chapitre et relecture IA.\n- Spécification : `docs/specifications/generateur-memoire-licence.md`.\n- Le module suit la structure du mini-mémoire modèle transmis (préliminaires, diagnostic, planification, mise en œuvre, suivi-évaluation, retombées, recommandations, conclusion et annexes), sans copier ses données ni son contenu.\n- Les informations manquantes sont signalées ; aucune enquête, statistique réelle, source ou référence n'est inventée. Les brouillons doivent être validés par l'encadreur.\n- Requiert `OPENAI_API_KEY`. Les chapitres ne sont pas encore sauvegardés automatiquement et l'export DOCX reste à développer.\n\n## Modules pédagogiques spécifiés
 
 - `docs/specifications/assistant-devoirs-corriges.md` : analyse des sujets, corrigés pédagogiques détaillés et propositions de rédaction universitaire.
 - `docs/specifications/generateur-tp.md` : préparation des TP, guide de réalisation, brouillon modifiable et correction séparée.
