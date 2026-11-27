@@ -53,6 +53,7 @@ Les corrigés indicatifs ne remplacent pas les corrections officielles de l'éta
 
 - `docs/specifications/assistant-devoirs-corriges.md` : analyse des sujets, corrigés pédagogiques détaillés et propositions de rédaction universitaire.
 - `docs/specifications/generateur-tp.md` : préparation des TP, guide de réalisation, brouillon modifiable et correction séparée.
+- `docs/specifications/generateur-tp-pedagogique-complet.md` : format attendu des TP complets, données simulées et corrigés question par question.
 - `docs/specifications/regles-assistant-cours-et-generateur-tp.md` : règles de réponse sourcée, génération de jeux de données simulés et corrigés détaillés question par question.
 - `docs/architecture/assimilation-continue-des-cours.md` : import, extraction, classement prudent, versionnage, indexation et recherche.
 - `docs/architecture/bibliotheque-documentaire-persistante.md` : stockage privé, versions, sécurité, API, recherche et tests d'acceptation.
@@ -63,14 +64,19 @@ Les corrigés indicatifs ne remplacent pas les corrections officielles de l'éta
 
 Ces documents constituent des spécifications et une feuille de route. Les fonctions de stockage documentaire persistant, de recherche dans les cours, de génération de TP, d'export DOCX/PDF et de serveur MCP ne sont pas toutes opérationnelles.
 
-## Prototype d'import PDF (v0.2)
+## Prototype d'import PDF et Word (v0.3)
 
-Une première étape permet de sélectionner un PDF, d'extraire le texte page par page côté serveur et de transmettre des extraits au tuteur pour la session courante. Les limites actuelles sont de 12 Mo, 80 pages et 100 000 caractères extraits.
+L'interface accepte désormais les PDF et les documents Word `.docx`. Le PDF est extrait page par page ; le DOCX est lu avec Mammoth puis découpé en segments de texte. Les limites actuelles sont de 12 Mo par fichier, 80 pages pour le PDF, 140 000 caractères pour le DOCX et 80 segments transmis au tuteur. L'import DOCX conserve le texte, mais pas la mise en page, les images ou la structure exacte des tableaux complexes.
+
+Le tuteur dispose maintenant de consignes renforcées pour les TP : énoncé complet, contexte, données simulées, dictionnaire des variables, questions, barème et corrigé intégral question par question. Des scénarios sont prévus pour la gestion des risques et la gestion des compétences. Voir `docs/specifications/generateur-tp-pedagogique-complet.md`.
+
+Pour utiliser les cours reçus : importer le DOCX dans l'interface, puis demander explicitement le chapitre ou le thème souhaité. Les extraits sont transmis à l'IA uniquement pour la session courante.
 
 ### Limites connues
 
 - Les fichiers et extraits ne sont pas encore enregistrés dans une bibliothèque persistante.
 - Les PDF constitués d'images nécessitent encore un OCR.
+- L'import DOCX n'est pas encore persistant et ne reconstitue pas les tableaux complexes ou les images.
 - La recherche durable, les comptes utilisateurs, les exports DOCX/PDF et le suivi de progression restent à développer.
 - Le contexte transmis au tuteur est limité ; le prototype ne garantit pas la récupération de tous les passages d'un cours volumineux.
 
