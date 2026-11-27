@@ -44,3 +44,15 @@ Le modèle comprend les pages préliminaires (page de garde, remerciements, avan
 - Les textes ne sont pas sauvegardés automatiquement dans une base de données.
 - Aucun export DOCX ni contrôle de plagiat n'est implémenté dans cette première version.
 - Le document modèle n'est pas embarqué comme corpus d'entraînement ; sa structure a été traduite en consignes applicatives.
+
+
+## Bibliothèque comparative de références
+Le générateur s'appuie désormais sur une bibliothèque de fiches méthodologiques décrivant quatre références :
+- le mini-mémoire du collègue comme modèle principal de structuration d'un projet ;
+- un mémoire Licence 3 consacré au suivi et contrôle qualité de travaux publics ;
+- un mémoire universitaire consacré aux indicateurs et tableaux de bord de performance ;
+- un mémoire universitaire consacré aux méthodes d'évaluation sur le cycle de vie du projet.
+
+Voir `docs/references/bibliotheque-memoires-gestion-projet.md`. Les trois références externes sont des fiches de lecture synthétiques, pas des textes intégraux embarqués. Leurs métadonnées bibliographiques doivent être vérifiées avant citation.
+
+Le prompt de génération oriente maintenant le choix des outils selon la nature du sujet : contrôle qualité pour les infrastructures, KPI/tableau de bord pour les projets pilotés par indicateurs, et évaluation ex ante/intermédiaire/finale selon le cycle de vie. Il interdit les affirmations causales d'impact non démontrées. Le sélecteur de chapitre propose également ces trois axes complémentaires.
