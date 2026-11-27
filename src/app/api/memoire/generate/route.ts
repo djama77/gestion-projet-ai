@@ -25,7 +25,7 @@ export async function POST(request: Request) {
     const chapter = str(b.chapter, 180);
     const draft = str(b.draft, 18000);
     if (!["plan","chapitre","relecture","evaluation"].includes(mode) || !["Licence 1","Licence 2","Licence 3"].includes(level)) return NextResponse.json({error:"Mode ou niveau invalide."},{status:400});
-    if (mode!=="relecture" && theme.length<8) return NextResponse.json({error:"Précise un thème de projet (au moins quelques mots)."}, {status:400});
+    if (mode!=="relecture" && mode!=="evaluation" && theme.length<8) return NextResponse.json({error:"Précise un thème de projet (au moins quelques mots)."}, {status:400});
     if ((mode==="relecture" || mode==="evaluation") && draft.length<30) return NextResponse.json({error:"Colle un texte suffisamment développé pour permettre une relecture."},{status:400});
 
     const system = [
