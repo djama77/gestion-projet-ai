@@ -138,11 +138,14 @@ Les valeurs restent « non mesurées » tant que les données de suivi ne sont p
 - En cas de branches dépendantes, documenter l'ordre de fusion et rebaser/retargeter proprement.
 - Conserver les rapports de test utiles dans les artefacts CI.
 
-## 9. État initial au 27 novembre 2026
-- PR #2 : bibliothèque documentaire persistante, ouverte en brouillon.
-- PR #3 : corpus évolutif et connecteur MCP, ouverte en brouillon et basée sur la branche de développement pédagogique.
-- Les spécifications ne démontrent pas que le stockage persistant, l'index, le serveur MCP ou les modules applicatifs sont opérationnels.
-- Les supports originaux doivent être inventoriés avant de déclarer les chapitres assimilés.
+## 9. État après consolidation — 27 novembre 2026
+- PR #1 — socle pédagogique, prototype d'import PDF et spécifications devoirs/TP : fusionnée dans `main`.
+- PR #2 — spécification de la bibliothèque documentaire persistante : fusionnée dans `main`.
+- PR #3 — corpus évolutif, règles d'assimilation, périmètre plateforme et architecture MCP : fusionnée dans `main`.
+- Le workflow CI a été corrigé pour ne plus demander le cache npm en l'absence de fichier de verrouillage. Le résultat du workflow déclenché sur le commit final doit être confirmé dans GitHub Actions.
+- Le dépôt contient un plan pédagogique, mais l'inventaire des fichiers du dossier `docs/cours/` ne montre pas encore les PDF/DOCX originaux des deux cours.
+- Le prototype d'import PDF fonctionne comme une étape de session ; il ne constitue pas un stockage persistant ni une indexation durable.
+- La bibliothèque persistante et le serveur MCP restent des spécifications, non des services déployés.
 
 ## 10. Prochaine étape recommandée
-Consolider les décisions d'architecture et l'inventaire des sources, puis réaliser le Lot 1 sur un premier document réel. Ne pas commencer simultanément le stockage, l'OCR, les exports, les tableaux de bord et le serveur MCP avant d'avoir validé le pipeline documentaire de bout en bout.
+P0 : ajouter et contrôler un premier support original autorisé, puis produire un rapport d'extraction avec pagination et statut de validation. Ensuite seulement, choisir et valider les fournisseurs d'authentification, de base et de stockage, implémenter l'import persistant et la recherche, puis réaliser un prototype MCP lecture seule. Les exports DOCX/PDF, l'atelier de gestion de projet et les tableaux de bord suivront avec des tests dédiés.
