@@ -54,9 +54,12 @@ Les corrigés indicatifs ne remplacent pas les corrections officielles de l'éta
 - `docs/specifications/generateur-tp.md` : préparation des TP, guide de réalisation, brouillon modifiable et correction séparée.
 - `docs/architecture/assimilation-continue-des-cours.md` : import, extraction, classement prudent, versionnage, indexation et recherche.
 - `docs/architecture/bibliotheque-documentaire-persistante.md` : stockage privé, versions, sécurité, API, recherche et tests d'acceptation.
-- `docs/roadmap/devoirs-tp-et-bibliotheque.md` : phases de réalisation et critères de validation.
+- `docs/architecture/connecteur-mcp-corpus-pedagogique.md` : architecture proposée d'un connecteur MCP en lecture seule.
+- `docs/ingestion/REGLES_ASSIMILATION_CONTINUE.md` : règles de réception, contrôle, classement et publication des nouveaux supports.
+- `docs/specifications/plateforme-gestion-projet-modules.md` : périmètre fonctionnel cible de la plateforme.
+- `docs/roadmap/devoirs-tp-et-bibliotheque.md` et `docs/roadmap/plan-execution-et-acceptation.md` : feuilles de route et critères de validation.
 
-Ces documents constituent des spécifications et une feuille de route. Les fonctions de stockage documentaire persistant, de recherche dans les cours, de génération de TP et d'export DOCX/PDF ne sont pas toutes opérationnelles.
+Ces documents constituent des spécifications et une feuille de route. Les fonctions de stockage documentaire persistant, de recherche dans les cours, de génération de TP, d'export DOCX/PDF et de serveur MCP ne sont pas toutes opérationnelles.
 
 ## Prototype d'import PDF (v0.2)
 
@@ -69,9 +72,9 @@ Une première étape permet de sélectionner un PDF, d'extraire le texte page pa
 - La recherche durable, les comptes utilisateurs, les exports DOCX/PDF et le suivi de progression restent à développer.
 - Le contexte transmis au tuteur est limité ; le prototype ne garantit pas la récupération de tous les passages d'un cours volumineux.
 
-## Statut de la bibliothèque documentaire
+## Statut de la bibliothèque documentaire et du connecteur MCP
 
-La spécification décrit la cible d'une bibliothèque privée, versionnée et consultable depuis plusieurs sessions. Elle ne signifie pas que le stockage, l'indexation, l'authentification ou un fournisseur cloud sont déjà configurés. Le choix du fournisseur et les éventuels coûts doivent être validés avant leur activation.
+Les spécifications décrivent une bibliothèque privée, versionnée et un connecteur MCP en lecture seule. Elles ne signifient pas que le stockage, l'indexation, l'authentification, le serveur MCP ou un fournisseur cloud sont déjà configurés. Le choix du fournisseur et les éventuels coûts doivent être validés avant leur activation. La compatibilité MCP doit être vérifiée client par client.
 
 ## Gouvernance du corpus
 
