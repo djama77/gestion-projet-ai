@@ -115,7 +115,7 @@ export default function Home() {
         <span className={document.ocrRequired ? "warning-text" : "success-text"}>{document.ocrRequired ? "OCR nécessaire pour certaines pages" : "Extraction du texte réussie"}</span>
       </div>}
       {notice && <p className="notice">{notice}</p>}
-      <p className="storage-note">Important : cette version conserve le document uniquement dans la session du navigateur. Il n'est pas encore archivé dans une bibliothèque permanente. Les PDF scannés nécessitent encore un module OCR.</p>
+      <p className="storage-note">Important : cette version conserve le document uniquement dans la session du navigateur. Il n&apos;est pas encore archivé dans une bibliothèque permanente. Les PDF scannés nécessitent encore un module OCR.</p>
     </section>
 
     <section className="chat-card">
