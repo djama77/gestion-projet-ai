@@ -82,3 +82,16 @@ Le choix final des fournisseurs et services doit être validé avant leur activa
 - Les réponses documentaires citent des sources traçables.
 - Les nouveaux cours deviennent recherchables après indexation réussie.
 - Les documents mal extraits ou ambigus sont signalés et non présentés comme assimilés.
+
+## État de réalisation — prototype v0.2
+
+Une première route `POST /api/documents/extract` et une interface d'import PDF sont ajoutées sur la branche de développement. Elles extraient le texte des pages et transmettent les extraits au tuteur pendant la session courante.
+
+Limites non levées :
+- aucune persistance durable des fichiers ou des textes extraits ;
+- pas encore d'OCR des pages scannées ;
+- pas encore de catalogue documentaire multi-utilisateur ;
+- pas encore d'index de recherche persistant ;
+- les extraits envoyés au modèle sont tronqués à une taille plafonnée.
+
+Le statut « assimilé durablement » ne doit donc être affiché qu'après mise en place et validation du stockage, de l'indexation et de la possibilité de retrouver le document dans une nouvelle session.
