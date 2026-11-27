@@ -99,3 +99,42 @@ Les spécifications décrivent une bibliothèque privée, versionnée et un conn
 ## Gouvernance du corpus
 
 Un document n'est considéré comme assimilé qu'après conservation de l'original, extraction contrôlée, validation des métadonnées et indexation vérifiée. Les réponses doivent citer les pages ou sections réellement retrouvées et signaler toute information absente des supports importés.
+
+
+## TP Licence 3 — Management, leadership et gestion des compétences
+
+La série de 10 TP et les corrigés détaillés question par question sont conservés dans le dépôt :
+- `docs/evaluations/TP_L3_management_leadership_competences.md` : sujets et consignes.
+- `docs/evaluations/CORRIGES_10_TP_L3_question_par_question.md` : corrigés pédagogiques détaillés.
+- `docs/datasets/generation-jeux-donnees-TP-L3.md` : règles de génération, variables, contrôles et usages pédagogiques.
+- `scripts/generate-tp-datasets.mjs` : générateur déterministe de jeux de données CSV et JSON pour les dix TP.
+
+Les données générées sont fictives, identifiées comme simulées et destinées à l'entraînement. Les corrections restent indicatives et ne sont pas présentées comme officielles.
+
+
+## Espace interactif des TP Licence 3
+
+Une page dédiée est disponible à la route `/tp-l3` :
+- sélection des dix TP de Management, Leadership et Gestion des compétences ;
+- présentation des objectifs, compétences et questions de travail ;
+- génération côté navigateur de jeux de données pédagogiques simulées ;
+- export CSV et JSON, avec graine reproductible ;
+- demande de guide de réalisation ou de corrigé détaillé au tuteur IA ;
+- l'API `/api/tp-l3` lit les sujets et corrigés versionnés dans `docs/evaluations/` pour contextualiser ses réponses.
+
+Le lien « TP Licence 3 » est accessible depuis la page d'accueil. Les fonctions d'assistance nécessitent une clé API OpenAI configurée côté serveur. Les jeux de données générés sont des exemples synthétiques, non des observations réelles. Le niveau de difficulté est une consigne transmise au tuteur ; il ne modifie pas encore automatiquement la distribution statistique des données.
+
+## Examens, devoirs et correcteur intelligent — Licence
+
+Une nouvelle interface est disponible sur `/examens` :
+- sujets d'entraînement préconfigurés pour Licence 1, Licence 2 et Licence 3 ;
+- sujets modifiables et barèmes ajustables avant utilisation ;
+- rédaction directe d'une copie ou import d'un PDF texte via le service d'extraction existant ;
+- correction IA question par question, points partiels, vérification des calculs et explication des erreurs ;
+- rapport avec note indicative, appréciation et plan de progression ;
+- téléchargement d'un bulletin de correction au format Word DOCX, généré à la demande sans archivage automatique ;
+- API serveur `/api/examens/correct`, utilisant la clé OpenAI uniquement côté serveur.
+
+Les sujets et corrigés de référence sont dans `docs/evaluations/EXAMENS_LICENCE_GESTION_PROJET.md`. La spécification fonctionnelle est dans `docs/specifications/correcteur-examens-licence.md`.
+
+**Limites et précautions :** les notes sont indicatives et non officielles ; une validation humaine reste nécessaire. L'import de copie prend en charge les PDF contenant du texte ; les PDF scannés peuvent nécessiter un OCR. Les formats L'import DOCX de copies n'est pas inclus dans cette première version. Le bulletin de correction est exportable en DOCX. Les copies ne sont pas enregistrées dans une bibliothèque persistante par ce module. Le service nécessite `OPENAI_API_KEY` configurée côté serveur.
