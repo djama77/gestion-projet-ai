@@ -265,7 +265,7 @@ export default function Home() {
         <input value={input} onChange={(event) => setInput(event.target.value)} placeholder="Écris ta question ou décris ton exercice…" aria-label="Ta question" maxLength={4000} />
         <button type="submit" disabled={loading || !input.trim()}>{loading ? "…" : "Envoyer"}</button>
       </form>
-      <p className="notice chat-notice">Les réponses issues d'un support doivent citer le document et les pages réellement exploitées. Les devoirs et corrigés générés restent des propositions pédagogiques à vérifier.</p>
+      <p className="notice chat-notice">Les réponses issues d&apos;un support doivent citer le document et les pages réellement exploitées. Les devoirs et corrigés générés restent des propositions pédagogiques à vérifier.</p>
     </section>
 
     <footer>GESTION DE PROJET AI <span>·</span> APPRENDRE, PRATIQUER, PROGRESSER</footer>
