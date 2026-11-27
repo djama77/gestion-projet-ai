@@ -56,3 +56,10 @@ Le générateur s'appuie désormais sur une bibliothèque de fiches méthodologi
 Voir `docs/references/bibliotheque-memoires-gestion-projet.md`. Les trois références externes sont des fiches de lecture synthétiques, pas des textes intégraux embarqués. Leurs métadonnées bibliographiques doivent être vérifiées avant citation.
 
 Le prompt de génération oriente maintenant le choix des outils selon la nature du sujet : contrôle qualité pour les infrastructures, KPI/tableau de bord pour les projets pilotés par indicateurs, et évaluation ex ante/intermédiaire/finale selon le cycle de vie. Il interdit les affirmations causales d'impact non démontrées. Le sélecteur de chapitre propose également ces trois axes complémentaires.
+
+
+## Évolutions ajoutées dans la branche de travail
+- Export Word au format DOCX depuis le résultat affiché, avec titre, avertissement pédagogique et paragraphes structurés.
+- Mode « Évaluer mon mémoire /20 » avec barème explicite : sujet/problématique (3), méthodologie (3), outils de gestion de projet (4), données et analyse (3), cohérence interne (3), recommandations/conclusion (2), présentation/références (2).
+- La note est indicative, justifiée critère par critère et ne remplace pas l'évaluation de l'encadreur.
+- L'export porte sur le texte généré/affiché ; il ne sauvegarde pas le mémoire dans une base de données.
