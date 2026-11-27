@@ -88,7 +88,8 @@ create table if not exists public.project_workspaces (
   objective text not null default '',
   currency_code text not null default 'DJF',
   created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now()
+  updated_at timestamptz not null default now(),
+  unique (id, owner_id)
 );
 
 create table if not exists public.project_tasks (
@@ -108,7 +109,7 @@ create table if not exists public.project_tasks (
   updated_at timestamptz not null default now(),
   unique (project_id, wbs_code),
   foreign key (project_id, owner_id) references public.project_workspaces(id, owner_id) on delete cascade,
-  foreign key (parent_id) references public.project_tasks(id) on delete set null,
+  foreign key (parent_id, project_id, owner_id) references public.project_tasks(id, project_id, owner_id),
   check (end_date is null or start_date is null or end_date >= start_date)
 );
 create unique index if not exists project_tasks_id_project_owner_idx
@@ -123,7 +124,8 @@ create table if not exists public.project_raci (
   responsibility char(1) not null check (responsibility in ('R','A','C','I')),
   created_at timestamptz not null default now(),
   unique (task_id, role_name),
-  foreign key (project_id, owner_id) references public.project_workspaces(id, owner_id) on delete cascade
+  foreign key (project_id, owner_id) references public.project_workspaces(id, owner_id) on delete cascade,
+  foreign key (task_id, project_id, owner_id) references public.project_tasks(id, project_id, owner_id) on delete cascade
 );
 
 create table if not exists public.project_budget_lines (
