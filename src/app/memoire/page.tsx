@@ -12,7 +12,10 @@ const chapters = [
   "2. Planification du projet",
   "3. Mise en œuvre, suivi et pérennisation",
   "4. Analyse des retombées et perspectives",
-  "5. Contribution pratique et recommandations",
+  "5. Contrôle qualité et conformité (si pertinent)",
+  "6. Tableau de bord et indicateurs de performance",
+  "7. Évaluation du projet selon son cycle de vie",
+  "8. Contribution pratique et recommandations",
   "Conclusion générale",
   "Bibliographie et annexes"
 ];
@@ -74,7 +77,7 @@ export default function MemoirePage() {
       </div>
       {mode==="chapitre" && <label style={{...field,display:"block",marginTop:16}}>Partie à rédiger<select style={control} value={chapter} onChange={e=>setChapter(e.target.value)}>{chapters.map(c=><option key={c}>{c}</option>)}</select></label>}
       {mode==="relecture" && <label style={{...field,display:"block",marginTop:16}}>Texte à relire<textarea style={{...control,minHeight:160}} value={draft} onChange={e=>setDraft(e.target.value)} placeholder="Colle ici ton texte..." /></label>}
-      <button onClick={generate} disabled={loading} style={{marginTop:18,background:"#2457d6",color:"#fff",border:0,borderRadius:10,padding:"13px 20px",fontWeight:700,cursor:"pointer",opacity:loading?.6:1}}>{loading?"Préparation en cours…":"Lancer l'assistant mémoire"}</button>
+      <button onClick={generate} disabled={loading} style={{marginTop:18,background:"#2457d6",color:"#fff",border:0,borderRadius:10,padding:"13px 20px",fontWeight:700,cursor:"pointer",opacity: loading ? 0.6 : 1}}>{loading?"Préparation en cours…":"Lancer l'assistant mémoire"}</button>
       {error && <p style={{color:"#b42318"}}>{error}</p>}
     </section>
     {result && <section style={{background:"#fff",border:"1px solid #e4eaf2",borderRadius:16,padding:22,marginTop:18}}>
