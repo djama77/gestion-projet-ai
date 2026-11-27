@@ -132,8 +132,9 @@ Une nouvelle interface est disponible sur `/examens` :
 - rédaction directe d'une copie ou import d'un PDF texte via le service d'extraction existant ;
 - correction IA question par question, points partiels, vérification des calculs et explication des erreurs ;
 - rapport avec note indicative, appréciation et plan de progression ;
+- téléchargement d'un bulletin de correction au format Word DOCX, généré à la demande sans archivage automatique ;
 - API serveur `/api/examens/correct`, utilisant la clé OpenAI uniquement côté serveur.
 
 Les sujets et corrigés de référence sont dans `docs/evaluations/EXAMENS_LICENCE_GESTION_PROJET.md`. La spécification fonctionnelle est dans `docs/specifications/correcteur-examens-licence.md`.
 
-**Limites et précautions :** les notes sont indicatives et non officielles ; une validation humaine reste nécessaire. L'import de copie prend en charge les PDF contenant du texte ; les PDF scannés peuvent nécessiter un OCR. Les formats DOCX et les exports de rapports ne sont pas inclus dans cette première version. Les copies ne sont pas enregistrées dans une bibliothèque persistante par ce module. Le service nécessite `OPENAI_API_KEY` configurée côté serveur.
+**Limites et précautions :** les notes sont indicatives et non officielles ; une validation humaine reste nécessaire. L'import de copie prend en charge les PDF contenant du texte ; les PDF scannés peuvent nécessiter un OCR. Les formats L'import DOCX de copies n'est pas inclus dans cette première version. Le bulletin de correction est exportable en DOCX. Les copies ne sont pas enregistrées dans une bibliothèque persistante par ce module. Le service nécessite `OPENAI_API_KEY` configurée côté serveur.
