@@ -9,7 +9,7 @@ Le dépôt référence un premier périmètre de deux cours issus des documents 
 1. **Management et Leadership** — 9 chapitres.
 2. **Gestion des compétences** — 7 chapitres.
 
-Le plan pédagogique disponible recense les contenus attendus. Les supports originaux complets (PDF/DOCX) doivent encore être inventoriés et ajoutés avant de considérer ces chapitres comme intégralement présents et assimilés. Le document Word développé doit être vérifié dans le dépôt avant d'être considéré comme une ressource versionnée. Les contenus visés comprennent :
+Le dépôt contient le plan pédagogique et un catalogue détaillé pour les deux cours. Le document Word développé transmis le 27 novembre 2026 (93 pages) a été identifié sous le nom `DOC-20261127-WA0004.docx`, mais le fichier DOCX original n'est pas encore versionné dans le dépôt. Le catalogue précise explicitement ce statut : reçu, mais en attente d'ajout de la source, d'extraction et de validation. Les cours ne doivent donc pas encore être présentés comme intégralement assimilés par l'application. Les contenus visés comprennent :
 - définitions et notions essentielles ;
 - développement structuré du cours ;
 - applications à des situations de gestion de projet ;
@@ -43,6 +43,7 @@ Plateforme cloud-first, accessible sur Internet et adaptée aux ordinateurs, tab
 
 - `docs/cours/management-leadership/`
 - `docs/cours/gestion-competences/`
+- `docs/cours/management-leadership-competences/README.md` : catalogue des 16 chapitres, compétences visées, règles de provenance et statut réel de la source DOCX.
 - `docs/evaluations/`
 - `docs/architecture/`
 
@@ -52,6 +53,7 @@ Les corrigés indicatifs ne remplacent pas les corrections officielles de l'éta
 
 - `docs/specifications/assistant-devoirs-corriges.md` : analyse des sujets, corrigés pédagogiques détaillés et propositions de rédaction universitaire.
 - `docs/specifications/generateur-tp.md` : préparation des TP, guide de réalisation, brouillon modifiable et correction séparée.
+- `docs/specifications/regles-assistant-cours-et-generateur-tp.md` : règles de réponse sourcée, génération de jeux de données simulés et corrigés détaillés question par question.
 - `docs/architecture/assimilation-continue-des-cours.md` : import, extraction, classement prudent, versionnage, indexation et recherche.
 - `docs/architecture/bibliotheque-documentaire-persistante.md` : stockage privé, versions, sécurité, API, recherche et tests d'acceptation.
 - `docs/architecture/connecteur-mcp-corpus-pedagogique.md` : architecture proposée d'un connecteur MCP en lecture seule.
