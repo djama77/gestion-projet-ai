@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "index_status": "empty",
+  "index_status": "source_extracted_needs_review",
   "generated_at": "2026-11-27",
-  "notice": "Aucun passage n'est indexé tant qu'un support source n'a pas été ajouté, extrait et vérifié.",
+  "notice": "Recherche plein texte sur la transcription du support source ; vérifier les passages et la mise en page contre le DOCX avant de déclarer l'assimilation validée.",
   "passages": []
 }
