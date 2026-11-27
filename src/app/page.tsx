@@ -163,7 +163,8 @@ export default function Home() {
       if (typeof data.answer !== "string" || !data.answer.trim()) {
         throw new Error("Le tuteur a retourné une réponse vide.");
       }
-      setMessages((current) => [...current, { role: "assistant", content: data.answer }].slice(-30));
+      const answer: string = data.answer;
+      setMessages((current) => [...current, { role: "assistant", content: answer }].slice(-30));
     } catch (err) {
       setError(err instanceof Error ? err.message : "Impossible de contacter l'assistant.");
     } finally {
