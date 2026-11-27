@@ -78,6 +78,33 @@ export default function ExamensPage() {
     }
   }
 
+
+  async function downloadReport() {
+    setError("");
+    try {
+      const response = await fetch("/api/examens/report", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ correction: result, level, subject: subjects[level].title })
+      });
+      if (!response.ok) {
+        const data = await response.json();
+        throw new Error(data.error || "Génération du bulletin impossible.");
+      }
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "bulletin-correction-gestion-projet.docx";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Impossible de télécharger le bulletin Word.");
+    }
+  }
+
   async function correct() {
     setError("");
     setResult("");
@@ -137,7 +164,7 @@ export default function ExamensPage() {
     {result && <section className="exam-panel exam-result">
       <div className="exam-heading"><div><p className="exam-eyebrow">3 · RAPPORT DE CORRECTION</p><h2>Analyse de ta copie</h2></div><span className="exam-tag">{status}</span></div>
       <pre>{result}</pre>
-      <button className="exam-secondary" onClick={()=>{setResult("");setStatus("");}}>Masquer le rapport</button>
+      <div className="exam-result-actions"><button className="exam-primary" onClick={downloadReport}>Télécharger le bulletin Word (.docx)</button><button className="exam-secondary" onClick={()=>{setResult("");setStatus("");}}>Masquer le rapport</button></div>
     </section>}
     <footer className="exam-footer">Les sujets sont des exercices d'entraînement. Les notes générées sont indicatives et doivent être validées par un enseignant. N'envoie pas de données personnelles sensibles.</footer>
   </main>;
