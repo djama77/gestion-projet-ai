@@ -1,65 +1,70 @@
-# Feuille de route — Devoirs, TP et assimilation documentaire
+# Feuille de route — apprentissage, devoirs et TP par UE
 
-Cette feuille de route décrit les étapes proposées. Elle ne signifie pas que les fonctionnalités sont déjà opérationnelles.
+Cette feuille de route concerne l'étudiant et son parcours universitaire. Elle décrit les fonctionnalités à construire ; elle ne signifie pas qu'elles sont déjà opérationnelles.
 
-## Phase 1 — Socle documentaire
+## Phase 1 — Organiser les UE et leurs ressources
 
-- [ ] Définir les modèles Document, DocumentVersion, Course, Chapter, SourcePassage.
-- [ ] Mettre en place stockage privé et métadonnées.
-- [ ] Développer l'import PDF/DOCX/TXT.
-- [ ] Ajouter extraction, pagination et détection de doublons.
-- [ ] Ajouter OCR pour les PDF numérisés.
-- [ ] Construire la bibliothèque avec statuts et erreurs.
-- [ ] Ajouter recherche plein texte avec références.
+- [ ] Créer le catalogue des UE et chapitres, sans inventer le programme officiel.
+- [ ] Associer à chaque UE les cours, supports, exercices, devoirs, TP et corrigés.
+- [ ] Distinguer les contenus officiels, les documents de l'étudiant et les compléments IA.
+- [ ] Importer les supports, conserver les originaux et leurs versions.
+- [ ] Extraire les textes en conservant les pages et sections.
+- [ ] Rechercher dans les cours et afficher les références vérifiables.
 
-## Phase 2 — Tuteur fondé sur les cours
+## Phase 2 — Apprendre chaque cours
 
-- [ ] Connecter la route de chat à la recherche documentaire.
-- [ ] Injecter seulement les extraits pertinents avec leurs références.
-- [ ] Afficher les sources dans les réponses.
-- [ ] Signaler les réponses non documentées.
-- [ ] Séparer les explications du cours et les compléments externes.
-- [ ] Ajouter des tests anti-hallucination et tests de citation.
+- [ ] Sélectionner une UE et un chapitre.
+- [ ] Afficher le cours fidèle au support.
+- [ ] Expliquer les notions progressivement et définir le vocabulaire.
+- [ ] Présenter les formules, variables, unités et calculs lorsqu'ils existent.
+- [ ] Générer des exemples pédagogiques clairement distingués du support.
+- [ ] Créer des résumés, fiches et glossaires.
+- [ ] Proposer des exercices et quiz avec correction expliquée.
 
-## Phase 3 — Devoirs corrigés
+## Phase 3 — Corriger les devoirs de chaque UE
 
-- [ ] Importer un sujet et préserver les consignes.
-- [ ] Décomposer les questions et livrables.
-- [ ] Retrouver les chapitres utiles.
-- [ ] Générer une correction pédagogique détaillée.
-- [ ] Générer une proposition de rédaction universitaire distincte.
-- [ ] Ajouter relecture, autoévaluation et export DOCX/PDF.
+- [ ] Importer un sujet et ses consignes.
+- [ ] Décomposer toutes les questions.
+- [ ] Identifier les chapitres et notions utiles de l'UE.
+- [ ] Fournir un corrigé détaillé et raisonné question par question.
+- [ ] Permettre à l'étudiant de soumettre sa propre réponse.
+- [ ] Corriger la copie, expliquer les erreurs et proposer des améliorations.
+- [ ] Respecter le barème lorsqu'il est fourni.
+- [ ] Distinguer corrigé officiel et correction indicative de l'IA.
 
-## Phase 4 — Travaux pratiques
+## Phase 4 — Accompagner et corriger les TP de chaque UE
 
-- [ ] Détecter le type de TP et les livrables demandés.
-- [ ] Générer un guide de réalisation.
-- [ ] Générer un brouillon modifiable.
-- [ ] Produire une correction indicative séparée.
-- [ ] Vérifier les calculs et données.
-- [ ] Exporter les dossiers en DOCX/PDF.
+- [ ] Lire et analyser le sujet.
+- [ ] Expliquer les prérequis, objectifs et méthodes.
+- [ ] Guider l'étudiant étape par étape.
+- [ ] Aider aux calculs et aux outils demandés par le sujet.
+- [ ] Relire les résultats et le rapport de l'étudiant.
+- [ ] Vérifier les calculs, unités, tableaux et interprétations.
+- [ ] Fournir une correction pédagogique, une grille de critères et les améliorations.
+- [ ] Préparer un document modifiable si demandé.
 
-## Phase 5 — Assimilation continue et suivi
+## Phase 5 — Suivre les acquis
 
-- [ ] Traiter chaque nouveau document selon le même pipeline.
-- [ ] Versionner et réindexer sans écraser les originaux.
-- [ ] Relier les évaluations aux notions et chapitres.
-- [ ] Mesurer les acquis à partir des résultats observés.
-- [ ] Proposer des révisions ciblées sans inventer le programme.
+- [ ] Enregistrer les exercices et tentatives.
+- [ ] Suivre la progression par UE et chapitre.
+- [ ] Repérer les notions non comprises à partir des erreurs observées.
+- [ ] Proposer des exercices de remédiation.
+- [ ] Préparer des révisions ciblées avant les évaluations.
 
-## Priorités de réalisation
+## Ordre de priorité
 
-P0 : stockage privé, import fiable, extraction, provenance et recherche documentaire.
+P0 : catalogue par UE, bibliothèque des supports et assistant de cours.
 
-P1 : tuteur avec citations, devoirs corrigés et export.
+P1 : correction des devoirs et des copies étudiantes pour chaque UE.
 
-P2 : générateur de TP, tableaux de bord et suivi des compétences.
+P2 : accompagnement et correction des TP pour chaque UE.
 
-## Validation avant mise en production
+P3 : quiz, fiches de révision et suivi des acquis.
 
-- Tests sur PDF textuel, PDF scanné, DOCX, tableaux et documents mal formés.
-- Vérification des pages et extraits cités.
-- Tests de sécurité des imports et des accès.
-- Tests de non-régression de la conversation existante.
-- Vérification du coût et des limites des appels IA.
-- Déploiement seulement après configuration sécurisée des variables d'environnement.
+## Règles de qualité
+
+- Les supports et consignes fournis priment sur les connaissances générales.
+- Les contenus absents des sources sont signalés.
+- Les pages, citations, données et références ne sont jamais inventées.
+- Une correction générée par l'IA est toujours identifiée comme indicative, sauf preuve d'un corrigé officiel.
+- L'étudiant doit pouvoir comprendre et expliquer les réponses proposées.
