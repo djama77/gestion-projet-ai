@@ -137,23 +137,23 @@ export default function ExamensPage() {
       <Link href="/tp-l3">TP Licence 3 ↗</Link>
     </header>
     <section className="exam-hero">
-      <p className="exam-eyebrow">S'ENTRAÎNER · RÉPONDRE · SE FAIRE CORRIGER</p>
+      <p className="exam-eyebrow">S&apos;ENTRAÎNER · RÉPONDRE · SE FAIRE CORRIGER</p>
       <h1>Examens et devoirs <em>Licence</em></h1>
       <p>Choisis un sujet, rédige tes réponses ou importe ta copie PDF. Le tuteur analyse chaque question, applique le barème et explique les points obtenus et les erreurs.</p>
     </section>
     <section className="exam-panel">
-      <div className="exam-heading"><div><p className="exam-eyebrow">1 · CHOISIR LE SUJET</p><h2>Mon examen d'entraînement</h2></div><span className="exam-tag">Note indicative /20</span></div>
+      <div className="exam-heading"><div><p className="exam-eyebrow">1 · CHOISIR LE SUJET</p><h2>Mon examen d&apos;entraînement</h2></div><span className="exam-tag">Note indicative /20</span></div>
       <div className="exam-levels">
         {(["L1","L2","L3"] as Level[]).map(item => <button key={item} className={level===item?"selected":""} onClick={()=>changeLevel(item)}><strong>{item}</strong><small>{item==="L1"?"Fondamentaux":item==="L2"?"Outils et méthodes":"Étude intégrée"}</small></button>)}
       </div>
       <div className="exam-meta"><strong>{subjects[level].title}</strong><span>Durée indicative : {subjects[level].duration} · Niveau {level}</span></div>
       <label className="exam-field">Sujet et consignes<textarea value={statement} onChange={e=>setStatement(e.target.value)} rows={12}/></label>
       <label className="exam-field">Barème de correction<textarea value={rubric} onChange={e=>setRubric(e.target.value)} rows={3}/></label>
-      <p className="exam-help">Tu peux modifier le sujet et le barème pour utiliser un devoir donné par ton enseignant. Si tu disposes d'un barème officiel, recopie-le ici.</p>
+      <p className="exam-help">Tu peux modifier le sujet et le barème pour utiliser un devoir donné par ton enseignant. Si tu disposes d&apos;un barème officiel, recopie-le ici.</p>
     </section>
     <section className="exam-panel">
       <p className="exam-eyebrow">2 · SOUMETTRE TA COPIE</p>
-      <h2>Réponses de l'étudiant</h2>
+      <h2>Réponses de l&apos;étudiant</h2>
       <label className="exam-upload">＋ Importer une copie PDF<input type="file" accept=".pdf,application/pdf" onChange={e=>importPdf(e.target.files?.[0])}/></label>
       {copyName && <p className="exam-help">Fichier : {copyName}</p>}
       {sourceInfo && <p className="exam-notice">{sourceInfo}</p>}
@@ -166,6 +166,6 @@ export default function ExamensPage() {
       <pre>{result}</pre>
       <div className="exam-result-actions"><button className="exam-primary" onClick={downloadReport}>Télécharger le bulletin Word (.docx)</button><button className="exam-secondary" onClick={()=>{setResult("");setStatus("");}}>Masquer le rapport</button></div>
     </section>}
-    <footer className="exam-footer">Les sujets sont des exercices d'entraînement. Les notes générées sont indicatives et doivent être validées par un enseignant. N'envoie pas de données personnelles sensibles.</footer>
+    <footer className="exam-footer">Les sujets sont des exercices d&apos;entraînement. Les notes générées sont indicatives et doivent être validées par un enseignant. N&apos;envoie pas de données personnelles sensibles.</footer>
   </main>;
 }
