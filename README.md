@@ -9,7 +9,7 @@ Le dépôt référence un premier périmètre de deux cours issus des documents 
 1. **Management et Leadership** — 9 chapitres.
 2. **Gestion des compétences** — 7 chapitres.
 
-Le dépôt contient le plan pédagogique et un catalogue détaillé pour les deux cours. Le document Word développé transmis le 27 novembre 2026 (93 pages) a été identifié sous le nom `DOC-20261127-WA0004.docx`, mais le fichier DOCX original n'est pas encore versionné dans le dépôt. Le catalogue précise explicitement ce statut : reçu, mais en attente d'ajout de la source, d'extraction et de validation. Les cours ne doivent donc pas encore être présentés comme intégralement assimilés par l'application. Les contenus visés comprennent :
+Le dépôt contient le plan pédagogique et un catalogue détaillé pour les deux cours. Le document Word développé transmis le 27 novembre 2026 (93 pages) a été identifié sous le nom `DOC-20261127-WA0004.docx`. Les deux guides structurés des cours ont été ajoutés dans `docs/cours/` à partir de son contenu. En revanche, le fichier DOCX original et l'intégralité de ses annexes/exercices ne sont pas encore versionnés dans le dépôt ; les guides ne doivent donc pas être présentés comme une transcription intégrale ni comme une assimilation complète par l'application. Les contenus visés comprennent :
 - définitions et notions essentielles ;
 - développement structuré du cours ;
 - applications à des situations de gestion de projet ;
@@ -44,6 +44,8 @@ Plateforme cloud-first, accessible sur Internet et adaptée aux ordinateurs, tab
 - `docs/cours/management-leadership/`
 - `docs/cours/gestion-competences/`
 - `docs/cours/management-leadership-competences/README.md` : catalogue des 16 chapitres, compétences visées, règles de provenance et statut réel de la source DOCX.
+- `docs/cours/management-leadership/COURS_MANAGEMENT_LEADERSHIP_STRUCTURE.md` : guide structuré des 9 chapitres de Management et Leadership, rédigé à partir du support Word source.
+- `docs/cours/gestion-competences/COURS_GESTION_COMPETENCES_STRUCTURE.md` : guide structuré des 7 chapitres de Gestion des compétences, rédigé à partir du support Word source.
 - `docs/evaluations/`
 - `docs/architecture/`
 
