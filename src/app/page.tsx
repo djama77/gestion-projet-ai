@@ -4,7 +4,7 @@ import { ChangeEvent, FormEvent, useState } from "react";
 
 type Message = { role: "user" | "assistant"; content: string };
 type SourcePage = { name: string; page: number; text: string };
-type ImportedDocument = { name: string; pageCount: number; extractedPages: number; characterCount: number; ocrRequired: boolean };
+type ImportedDocument = { name: string; pageCount: number | null; extractedPages: number; characterCount: number; ocrRequired: boolean };
 
 const suggestions = [
   "Explique-moi le cours simplement",
