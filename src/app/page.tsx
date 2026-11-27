@@ -16,7 +16,7 @@ const suggestions = [
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([{
     role: "assistant",
-    content: "Bienvenue dans votre espace universitaire. Importez un PDF de cours pour poser des questions fondées sur son contenu, préparer des révisions, un devoir ou un TP."
+    content: "Bienvenue dans votre espace universitaire. Importez un cours PDF ou Word pour préparer des révisions, des TP avec données simulées et des corrigés détaillés fondés sur le contenu du cours."
   }]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -26,7 +26,7 @@ export default function Home() {
   const [sources, setSources] = useState<SourcePage[]>([]);
   const [document, setDocument] = useState<ImportedDocument | null>(null);
 
-  async function importPdf(event: ChangeEvent<HTMLInputElement>) {
+  async function importDocument(event: ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0];
     if (!file) return;
     setUploading(true);
@@ -37,7 +37,8 @@ export default function Home() {
     try {
       const form = new FormData();
       form.append("file", file);
-      const response = await fetch("/api/documents/extract", { method: "POST", body: form });
+      const endpoint = file.name.toLowerCase().endsWith(".docx") ? "/api/documents/extract-docx" : "/api/documents/extract";
+      const response = await fetch(endpoint, { method: "POST", body: form });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || "Échec de l'extraction du PDF.");
       setSources(data.document.pages.map((page: { page: number; text: string }) => ({
@@ -101,13 +102,13 @@ export default function Home() {
 
     <section className="upload-card">
       <div>
-        <p className="eyebrow">BIBLIOTHÈQUE DE COURS · PREMIÈRE VERSION</p>
-        <h2>Importer un cours PDF</h2>
-        <p className="upload-description">Le texte est extrait page par page afin de permettre au tuteur de citer le document et sa pagination.</p>
+        <p className="eyebrow">BIBLIOTHÈQUE DE COURS · IMPORT PDF ET WORD</p>
+        <h2>Importer un cours PDF ou Word</h2>
+        <p className="upload-description">Le texte est extrait et découpé en segments afin que le tuteur puisse s’appuyer sur le contenu du cours.</p>
       </div>
       <label className="upload-button">
-        {uploading ? "Lecture du document…" : "Choisir un fichier PDF"}
-        <input type="file" accept="application/pdf,.pdf" onChange={importPdf} disabled={uploading} />
+        {uploading ? "Lecture du document…" : "Choisir un fichier PDF ou DOCX"}
+        <input type="file" accept="application/pdf,.pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.docx" onChange={importDocument} disabled={uploading} />
       </label>
       {document && <div className="document-status">
         <strong>{document.name}</strong>
@@ -119,7 +120,7 @@ export default function Home() {
     </section>
 
     <section className="chat-card">
-      <div className="chat-heading"><div><span className="online-dot" /> Assistant IA</div><small>{sources.length ? "Réponses avec extraits du PDF importé" : "Importez un cours pour activer les réponses documentaires"}</small></div>
+      <div className="chat-heading"><div><span className="online-dot" /> Assistant IA</div><small>{sources.length ? "Réponses avec extraits du PDF importé" : "Importez un cours PDF ou Word pour activer les réponses documentaires"}</small></div>
       <div className="messages" aria-live="polite">
         {messages.map((message, index) => <article className={message.role === "user" ? "message user" : "message assistant"} key={index}>
           <span className="speaker">{message.role === "user" ? "VOUS" : "TUTEUR PÉDAGOGIQUE"}</span>
@@ -135,6 +136,6 @@ export default function Home() {
       </form>
       <p className="notice">Les réponses fondées sur le PDF utilisent les pages dont le texte a pu être extrait. Vérifiez les références et les réponses avant tout travail universitaire.</p>
     </section>
-    <footer>LICENCE GESTION DE PROJET AI <span>·</span> VERSION 0.2 — IMPORT PDF EXPÉRIMENTAL</footer>
+    <footer>LICENCE GESTION DE PROJET AI <span>·</span> VERSION 0.3 — IMPORT PDF / DOCX ET TP GUIDÉS</footer>
   </main>;
 }
