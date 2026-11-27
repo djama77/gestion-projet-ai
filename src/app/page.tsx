@@ -192,7 +192,7 @@ export default function Home() {
     <header className="topbar">
       <div className="brand-mark">GP<span>AI</span></div>
       <div className="brand-copy"><strong>GESTION DE PROJET AI</strong><small>TON ESPACE UNIVERSITAIRE INTELLIGENT</small></div>
-      <span className="status">Espace étudiant</span>
+      <a className="atelier-link" href="/atelier">Atelier de projet ↗</a><span className="status">Espace étudiant</span>
     </header>
 
     <section className="hero">
