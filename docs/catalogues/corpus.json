@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_status": "initial_inventory",
+  "updated_at": "2026-11-27",
+  "notice": "Ce catalogue décrit le périmètre pédagogique recensé. Il ne prouve pas que les supports originaux sont présents dans le dépôt.",
+  "courses": [
+    {
+      "course_id": "management-leadership",
+      "title": "Management et Leadership",
+      "expected_chapter_count": 9,
+      "level": "unknown",
+      "inventory_status": "inventory_only",
+      "source_documents": []
+    },
+    {
+      "course_id": "gestion-competences",
+      "title": "Gestion des compétences",
+      "expected_chapter_count": 7,
+      "level": "unknown",
+      "inventory_status": "inventory_only",
+      "source_documents": []
+    }
+  ],
+  "documents": []
+}
