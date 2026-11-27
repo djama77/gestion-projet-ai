@@ -4,7 +4,6 @@ import { NextResponse } from "next/server";
 export const runtime = "nodejs";
 
 type Role = "user" | "assistant";
-type StudyLevel = "L1" | "L2" | "L3";
 type StudyMode = "explain" | "summary" | "quiz" | "assignment" | "tp" | "method";
 
 const MAX_MESSAGES = 12;
