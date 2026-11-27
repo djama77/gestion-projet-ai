@@ -29,8 +29,8 @@ type Level = keyof typeof subjects;
 
 export default function ExamensPage() {
   const [level, setLevel] = useState<Level>("L2");
-  const [statement, setStatement] = useState(subjects.L2.statement);
-  const [rubric, setRubric] = useState(subjects.L2.rubric);
+  const [statement, setStatement] = useState<string>(subjects.L2.statement);
+  const [rubric, setRubric] = useState<string>(subjects.L2.rubric);
   const [answer, setAnswer] = useState("");
   const [copyName, setCopyName] = useState("");
   const [loading, setLoading] = useState(false);
