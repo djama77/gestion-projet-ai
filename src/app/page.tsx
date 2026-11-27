@@ -164,7 +164,7 @@ export default function Home() {
         throw new Error("Le tuteur a retourné une réponse vide.");
       }
       const answer: string = data.answer;
-      setMessages((current) => [...current, { role: "assistant", content: answer }].slice(-30));
+      setMessages((current) => [...current, { role: "assistant" as const, content: answer }].slice(-30));
     } catch (err) {
       setError(err instanceof Error ? err.message : "Impossible de contacter l'assistant.");
     } finally {
