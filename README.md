@@ -2,14 +2,14 @@
 
 Plateforme universitaire en ligne de formation en gestion de projet, organisée sur les niveaux Licence 1 à Licence 3.
 
-## Supports pédagogiques intégrés
+## Périmètre pédagogique recensé
 
-Le premier lot de contenus couvre deux cours issus du document transmis :
+Le dépôt référence un premier périmètre de deux cours issus des documents de travail transmis :
 
 1. **Management et Leadership** — 9 chapitres.
 2. **Gestion des compétences** — 7 chapitres.
 
-Le document Word développé accompagne ce dépôt. Il comprend pour chaque chapitre :
+Le plan pédagogique disponible recense les contenus attendus. Les supports originaux complets (PDF/DOCX) doivent encore être inventoriés et ajoutés avant de considérer ces chapitres comme intégralement présents et assimilés. Le document Word développé doit être vérifié dans le dépôt avant d'être considéré comme une ressource versionnée. Les contenus visés comprennent :
 - définitions et notions essentielles ;
 - développement structuré du cours ;
 - applications à des situations de gestion de projet ;
