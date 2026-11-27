@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_status": "source_imported_and_developed_needs_review",
+  "updated_at": "2026-11-27",
+  "notice": "Le support source de 22 pages est conservé sous forme de transcription textuelle à vérifier. Deux documents pédagogiques complémentaires développent les 16 chapitres. Les compléments ne sont pas des corrigés officiels.",
+  "courses": [
+    {
+      "course_id": "management-leadership",
+      "title": "Management et Leadership",
+      "expected_chapter_count": 9,
+      "level": "M1 (en-tête du cours) ; Licence 3 (évaluations présentes dans le support)",
+      "inventory_status": "source_extracted_and_chapters_developed_needs_review",
+      "source_documents": ["cours-gestion-projet-licence-2026-11-27"],
+      "developed_content_path": "docs/cours/management-leadership/COURS_DEVELOPPE_9_CHAPITRES.md"
+    },
+    {
+      "course_id": "gestion-competences",
+      "title": "Gestion des compétences",
+      "expected_chapter_count": 7,
+      "level": "Licence 3 (indiqué dans le support)",
+      "inventory_status": "source_extracted_and_chapters_developed_needs_review",
+      "source_documents": ["cours-gestion-projet-licence-2026-11-27"],
+      "developed_content_path": "docs/cours/gestion-competences/COURS_DEVELOPPE_7_CHAPITRES.md"
+    }
+  ],
+  "documents": [
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source complet (22 pages)",
+      "source_filename": "cours gestion de projet licence.docx",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "source_format": "DOCX — transcription textuelle",
+      "page_count": 22,
+      "language": "fr",
+      "ingestion_status": "needs_review",
+      "version": "1",
+      "notes": "Le support réunit Management et Leadership (9 chapitres attendus) et Gestion des compétences (7 chapitres attendus), avec évaluations, exercices, cas pratiques, QCM et corrigés attendus. Les niveaux M1 et Licence 3 coexistent dans les mentions du premier cours ; ne pas harmoniser sans validation."
+    },
+    {
+      "document_id": "developpement-management-leadership-2026-11-27",
+      "title": "Management et Leadership — cours développé en 9 chapitres",
+      "source_path": "docs/cours/management-leadership/COURS_DEVELOPPE_9_CHAPITRES.md",
+      "source_format": "Markdown — complément pédagogique",
+      "page_count": null,
+      "language": "fr",
+      "ingestion_status": "developed_needs_pedagogical_review",
+      "version": "1",
+      "notes": "Développement pédagogique complémentaire : explications, exemples projet, exercices et corrections proposées. Ne remplace pas le support source ni ses évaluations."
+    },
+    {
+      "document_id": "developpement-gestion-competences-2026-11-27",
+      "title": "Gestion des compétences — cours développé en 7 chapitres",
+      "source_path": "docs/cours/gestion-competences/COURS_DEVELOPPE_7_CHAPITRES.md",
+      "source_format": "Markdown — complément pédagogique",
+      "page_count": null,
+      "language": "fr",
+      "ingestion_status": "developed_needs_pedagogical_review",
+      "version": "1",
+      "notes": "Développement pédagogique complémentaire : explications, exemples projet, exercices et corrections proposées. Ne remplace pas le support source ni ses évaluations."
+    }
+  ]
+}

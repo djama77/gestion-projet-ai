@@ -4,17 +4,19 @@ Plateforme universitaire en ligne de formation en gestion de projet, organisée 
 
 ## Périmètre pédagogique recensé
 
-Le dépôt référence un premier périmètre de deux cours issus des documents de travail transmis :
-
+Le dépôt référence deux cours :
 1. **Management et Leadership** — 9 chapitres.
 2. **Gestion des compétences** — 7 chapitres.
 
-Le plan pédagogique disponible recense les contenus attendus. Les supports originaux complets (PDF/DOCX) doivent encore être inventoriés et ajoutés avant de considérer ces chapitres comme intégralement présents et assimilés. Le document Word développé doit être vérifié dans le dépôt avant d'être considéré comme une ressource versionnée. Les contenus visés comprennent :
-- définitions et notions essentielles ;
-- développement structuré du cours ;
-- applications à des situations de gestion de projet ;
-- exercices avec corrigés indicatifs ;
-- points essentiels à retenir.
+### Supports et cours développés
+
+- Support source importé (transcription de 22 pages) : `docs/cours/source-integrale-cours-gestion-projet-licence.md`.
+- Cours développé Management et Leadership : `docs/cours/management-leadership/COURS_DEVELOPPE_9_CHAPITRES.md`.
+- Cours développé Gestion des compétences : `docs/cours/gestion-competences/COURS_DEVELOPPE_7_CHAPITRES.md`.
+
+Les deux documents développés comportent des explications structurées, des exemples liés à la gestion de projet, des exercices avec corrections proposées et des points de révision. Ils complètent le support source sans le remplacer. Les exercices ajoutés sont pédagogiques et leurs corrections sont indicatives, non officielles.
+
+**Fidélité documentaire :** le document source demeure une transcription textuelle à vérifier contre le DOCX original. Les niveaux M1 et Licence 3 coexistent dans les mentions du cours Management et Leadership ; ils sont conservés sans harmonisation.
 
 ## Règles de qualité pédagogique
 
@@ -71,6 +73,24 @@ Une première étape permet de sélectionner un PDF, d'extraire le texte page pa
 - Les PDF constitués d'images nécessitent encore un OCR.
 - La recherche durable, les comptes utilisateurs, les exports DOCX/PDF et le suivi de progression restent à développer.
 - Le contexte transmis au tuteur est limité ; le prototype ne garantit pas la récupération de tous les passages d'un cours volumineux.
+
+## Outils pratiques utilisés comme supports d'apprentissage
+
+Une interface expérimentale est disponible sur la route `/atelier`. Elle sert uniquement de support pédagogique pour pratiquer les méthodes vues en cours, et non de module principal de pilotage de projets professionnels :
+- WBS : découpage des activités, responsables, dates et avancement ;
+- Gantt : représentation visuelle des périodes saisies ;
+- RACI : attribution R/A/C/I par activité ;
+- Budget : prévision, dépenses enregistrées et écarts ;
+- Risques : probabilité, impact, score, réponse et statut ;
+- tableau de bord calculé à partir des données saisies.
+
+**Limite importante :** dans ce premier lot, les données de l'atelier sont sauvegardées dans le navigateur courant. L'export/import JSON permet une sauvegarde manuelle. La synchronisation cloud multi-appareils n'est pas encore opérationnelle. Le Gantt ne calcule pas encore les dépendances ni le chemin critique.
+
+Le schéma de référence proposé pour la bibliothèque privée et la persistance des projets est dans `supabase/schema.sql`. Il n'a pas été appliqué à un projet Supabase. Voir `docs/architecture/MISE_EN_SERVICE_PERSISTANCE_CLOUD.md` avant toute activation.
+
+## Bibliothèque documentaire
+
+Une interface de catalogue est accessible sur `/bibliotheque`, avec une route `GET /api/library` et une recherche littérale dans les passages présents dans l'index versionné. Le catalogue et l'index sont dans `docs/catalogues/`. Le catalogue référence désormais le support source et les deux cours développés. Cela ne garantit pas à lui seul que le tuteur de l'application utilise déjà les nouveaux fichiers dans ses réponses : l'intégration de la recherche et du contexte applicatif doit être testée séparément.
 
 ## Statut de la bibliothèque documentaire et du connecteur MCP
 
