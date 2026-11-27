@@ -3,5 +3,436 @@
   "index_status": "source_extracted_needs_review",
   "generated_at": "2026-11-27",
   "notice": "Recherche plein texte sur la transcription du support source ; vérifier les passages et la mise en page contre le DOCX avant de déclarer l'assimilation validée.",
-  "passages": []
+  "passages": [
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 1,
+      "section": "Page 1 — extrait 1",
+      "content": "🎓 Cours : Management et Leadership\n                               Niveau :M1 Gestion de Projet\n                          Volume horaire indicatif : 30 à 40 heures\n                                   Crédits : 3 à 6 ECTS\n\n1. Objectifs du cours\nObjectif général\nComprendre et maîtriser les principes, approches et pratiques du management et du\nleadership appliqués au contexte de la gestion de projet.\nObjectifs spécifiques\nÀ la fin du cours, l’étudiant(e) sera capable de :\n    1. Distinguer les rôles et compétences du manager et du leader.\n    2. Identifier les styles de management et de leadership adaptés à différents contextes.\n    3. Mobiliser et motiver une équipe projet.\n    4. Communiquer efficacement et gérer les conflits.\n    5. Exercer un leadership éthique et transformationnel au sein d’un projet.\n\n2. Plan détaillé du cours\nChapitre 1 : Introduction au management et au leadership\n     Définitions fondamentales : management, leadership, gestion, autorité, pouvoir,\n       influence.\n     Différences et complémentarités entre manager et leader.\n     Évolution historique du management et du leadership.\n     Le leadership dans le contexte du projet : temporalité, équipe pluridisciplinaire,\n       objectifs mesurables.\nActivité pratique : débat en classe — Manager ou Leader : lequel est le plus important dans\nun projet ?",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 1,
+      "section": "Page 1 — extrait 2",
+      "content": "Chapitre 2 : Les théories du management\n    Les écoles classiques : Taylor, Fayol, Weber.\n    Les approches comportementales : Mayo, Maslow, Herzberg, McGregor (Théorie X et\n      Y).\n    Le management par objectifs (Drucker).\n    Les approches modernes : management participatif, agile, par la qualité.\nCas pratique : comparer les styles de management de deux chefs de projet.\n\nChapitre 3 : Les théories du leadership\n    Les grands courants du leadership :\n           o Leadership charismatique (Weber)\n           o Leadership transformationnel et transactionnel (Bass & Burns)\n           o Leadership situationnel (Hersey & Blanchard)\n           o Leadership participatif et collaboratif\n    Les traits du leader efficace : vision, communication, intelligence émotionnelle,\n       empathie.\nExercice : questionnaire de style de leadership (auto-évaluation).\n\n1\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 2,
+      "section": "Page 2 — extrait 1",
+      "content": "Chapitre 4 : Motivation et gestion d’équipe projet\n    Facteurs de motivation dans un projet : besoins, reconnaissance, autonomie.\n    Théories de la motivation : Maslow, Herzberg, Vroom (théorie des attentes).\n    Gestion des talents et des compétences dans une équipe projet.\n    Techniques de motivation collective : feedback positif, responsabilisation,\n      reconnaissance.\nÉtude de cas : comment motiver une équipe en retard sur un projet critique ?\n\nChapitre 5 : Communication et leadership\n    Rôle de la communication dans le management de projet.\n    Les niveaux de communication (intrapersonnelle, interpersonnelle, de groupe).\n    Écoute active, reformulation, communication non verbale.\n    Gestion des réunions et communication de crise.\n    Outils numériques de communication d’équipe.\nActivité : jeu de rôle — le chef de projet doit annoncer un retard au client.\n\nChapitre 6 : Gestion des conflits et négociation\n    Sources de conflits dans un projet.\n    Typologie des conflits : de tâche, de relation, de pouvoir.\n    Stratégies de résolution (modèle Thomas-Kilmann).\n    Techniques de négociation gagnant-gagnant (win-win).\nExercice : simulation d’un conflit entre deux membres d’une équipe projet.\n\nChapitre 7 : Leadership dans le changement organisationnel\n    La dynamique du changement dans les organisations.\n    Modèles de conduite du changement : Lewin, Kotter.\n    Le rôle du leader face à la résistance au changement.\n    Communication et accompagnement du changement.\nCas pratique : transformation numérique d’une entreprise — rôle du leader de projet.",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 2,
+      "section": "Page 2 — extrait 2",
+      "content": "Chapitre 8 : Leadership éthique et responsabilité sociale\n    L’éthique dans le management.\n    Les dilemmes éthiques du manager.\n    Responsabilité sociétale et développement durable.\n    Le leader responsable dans un monde globalisé.\nDiscussion : jusqu’où un manager doit-il aller pour atteindre les objectifs ?\n\nChapitre 9 : Leadership dans la gestion de projet\n    Le leadership du chef de projet.\n    Compétences clés selon le PMI (Project Management Institute).\n    Management transversal et influence sans autorité hiérarchique.\n    Leadership collaboratif dans les équipes agiles.\nActivité : analyse d’un projet réel et identification du style de leadership utilisé.\n\n3. Méthodes pédagogiques\n                                                 2\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 3,
+      "section": "Page 3 — extrait 1",
+      "content": "   Cours magistraux illustrés (diaporamas, études de cas).\n       Travaux dirigés (TD) : jeux de rôles, simulations, analyses de projet.\n       Travaux de groupe : mini-projets, exposés.\n       Lecture dirigée : articles académiques ou ouvrages spécialisés.\n\n4. Évaluation\nType d’évaluation Pondération               Description\nContrôle continu 40%          Tests, mini-dossiers, exposés\nProjet de groupe 20%          Analyse de leadership dans un projet réel\nExamen final      40%         Étude de cas + questions de réflexion\n\n5. Bibliographie sélective\nOuvrages principaux :\n     Hersey, P., & Blanchard, K. — Management of Organizational Behavior\n     Burns, J.M. — Leadership\n     Bass, B. M. — Leadership and Performance Beyond Expectations\n     Drucker, P. — The Practice of Management\n     Kouzes, J. & Posner, B. — The Leadership Challenge\nRessources francophones :\n     Thierry, D. — Les théories du management contemporain\n     Dupuy, F. — Le leadership dans les organisations modernes\n     Belout, A. — Gestion des projets : aspects humains et organisationnels\n     Site : GestionDeProjet.pm\n\n🧭 Évaluation : Management et Leadership\nNiveau : Licence 3 — Gestion de Projet\nDurée : 2 heures\nType : Examen individuel écrit\nCoefficient : 2\nBarème total : 20 points\n\n🧩 PARTIE I — Questions de cours (10 points)\nQuestion 1 (3 pts)\nExpliquez la différence entre management et leadership. Donnez un exemple concret",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 3,
+      "section": "Page 3 — extrait 2",
+      "content": "✅\nillustrant cette distinction dans un projet.\n    Correction attendue :\n     Management : consiste à planifier, organiser, diriger et contrôler les activités pour\n        atteindre les objectifs fixés (orientation vers les processus et les résultats).\n     Leadership : capacité à influencer, motiver et inspirer les membres d’une équipe pour\n        atteindre une vision commune (orientation vers les personnes et la vision).\n     Exemple : Le chef de projet qui établit le planning et répartit les tâches exerce du\n        management ; celui qui inspire son équipe à persévérer malgré les retards fait preuve\n\n➡️\n        de leadership.\n             Barème :\n     Définitions correctes (1,5 pt)\n     Différence bien explicitée (1 pt)\n\n3\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 4,
+      "section": "Page 4 — extrait 1",
+      "content": "   Exemple pertinent (0,5 pt)\n\nQuestion 2 (3 pts)\nCitez et expliquez deux styles de leadership. Précisez dans quel contexte chacun est le plus\n\n✅\nefficace.\n    Correction attendue :\n     Style autocratique : le leader prend seul les décisions. Utile en situation d’urgence ou\n        de crise (projet en retard, équipe inexpérimentée).\n     Style participatif/démocratique : le leader implique l’équipe dans la décision.\n\n➡️\n        Efficace pour motiver, favoriser la créativité, ou dans des équipes autonomes.\n            Barème :\n     Deux styles bien nommés (1 pt)\n     Explications claires (1 pt)\n     Contexte adapté (1 pt)\n\nQuestion 3 (4 pts)\nExpliquez les principales théories de la motivation et montrez leur utilité pour le manager de\n\n✅\nprojet.\n    Correction attendue :\n     Maslow : hiérarchie des besoins (physiologiques → sécurité → appartenance →\n        estime → accomplissement).\n        → Le chef de projet veille à satisfaire les besoins de base avant de demander de hautes\n        performances.\n     Herzberg : facteurs d’hygiène (salaire, conditions) et de motivation (reconnaissance,\n        responsabilité).\n        → Le manager doit offrir un environnement correct et des tâches stimulantes.\n     Vroom (théorie des attentes) : la motivation dépend des attentes de réussite et des\n        récompenses perçues.\n\n➡️\n        → Le manager doit fixer des objectifs réalistes et reconnaître les efforts.\n            Barème :\n     Maslow (1 pt), Herzberg (1 pt), Vroom (1 pt)\n     Application au projet (1 pt)",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 4,
+      "section": "Page 4 — extrait 2",
+      "content": "🧩 PARTIE II — Étude de cas (10 points)\nCas pratique :\nVous êtes chef de projet dans une entreprise de construction. Votre équipe est composée de 8\npersonnes :\n     3 ingénieurs expérimentés,\n     3 jeunes diplômés,\n     2 techniciens spécialisés.\nLe projet subit un retard important et la direction vous met sous pression.\nL’équipe commence à se démotiver et des conflits apparaissent entre anciens et nouveaux\nmembres.\nQuestions :\n    1. Identifiez les problèmes de management et de leadership dans cette situation. (3\n       pts)\n    2. Proposez trois actions concrètes pour remobiliser votre équipe. (4 pts)\n\n4\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 5,
+      "section": "Page 5 — extrait 1",
+      "content": "3. Indiquez le style de leadership que vous adopteriez et justifiez votre choix. (3 pts)\n\n✅ Corrigé attendu :\n1. Problèmes identifiés (3 pts)\n     Manque de communication et de cohésion d’équipe.\n     Absence de vision partagée (baisse de motivation).\n     Conflits intergénérationnels → mauvaise gestion du leadership situationnel.\n\n➡️\n     Manque de reconnaissance des efforts fournis.\n    Barème : identification claire et précise de 3 à 4 problèmes (3 pts max).\n\n2. Actions proposées (4 pts)\n     Réunion d’équipe pour clarifier les objectifs et écouter les préoccupations.\n     Répartition des tâches selon compétences et mentorat entre seniors et juniors.\n     Reconnaissance des efforts (feedback positif, valorisation publique).\n\n➡️   Suivi régulier du projet avec indicateurs clairs et transparents.\n    Barème :\n     Actions pertinentes (2 pts)\n     Faisabilité / lien avec le leadership (2 pts)\n\n3. Style de leadership à adopter (3 pts)\n     Leadership participatif / transformationnel :\n        → Favorise la collaboration et la motivation intrinsèque.\n        → Encourage la créativité et la responsabilisation.\n\n➡️      → Convient à une équipe diversifiée et en perte de moral.\n    Barème :\n     Style justifié (1,5 pt)\n\n🔹\n     Cohérence avec le contexte (1,5 pt)\n        Note indicative globale :\n              Critère               Points\nMaîtrise des concepts               /10\nPertinence des analyses             /5\nCohérence des propositions          /3\nClarté et structure de la rédaction /2\nTotal                               /20",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 5,
+      "section": "Page 5 — extrait 2",
+      "content": "💡SujetVariante  possible (travail de groupe)\n        : Étudier le leadership d’un chef de projet célèbre (ex : Elon Musk, Anne Lauvergeon,\nSatya Nadella…).\n    Présenter son style de leadership (5 pts)\n    Analyser son efficacité dans un projet précis (5 pts)\n    Proposer des pistes d’amélioration (5 pts)\n    Exposé oral + support écrit (5 pts)\n\n5\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 6,
+      "section": "Page 6 — extrait 1",
+      "content": "🧭 QCM : Management et Leadership (Licence 3 – Gestion de Projet)\nDurée : 45 minutes\nBarème : 20 points (2 points par question)\nConsigne : Une seule bonne réponse par question.\n\n1. Le management consiste principalement à :\nA. Motiver et inspirer les employés\n                                               ✅\nB. Planifier, organiser et contrôler les activités\nC. Prendre uniquement des décisions stratégiques\n\n✔️\nD. Créer une vision pour l’avenir\n    Correction : Le management vise à atteindre des objectifs à travers la planification,\nl’organisation, la direction et le contrôle des ressources.\n\n2. Le leadership transformationnel se caractérise par :\nA. Le contrôle strict des performances\nB. La fixation d’objectifs à court terme\n                                               ✅\nC. L’inspiration et la stimulation intellectuelle\n\n✔️\nD. La centralisation du pouvoir\n    Correction : Le leader transformationnel cherche à inspirer ses collaborateurs, à leur\ndonner une vision et à stimuler leur créativité.\n\n3. Selon la pyramide de Maslow, le besoin d’appartenance correspond à :\nA. Le besoin de sécurité\nB. Le besoin d’amour et de reconnaissance sociale\nC. Le besoin d’estime\n                                                   ✅\n✔️\nD. Le besoin de réalisation personnelle\n    Correction : Les besoins d’appartenance concernent les relations sociales (collègues,\namis, appartenance à un groupe).\n\n4. Dans la théorie de Herzberg, un facteur d’hygiène est :\nA. La reconnaissance du travail\n\nC. Le salaire✅\nB. La responsabilité accrue",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 6,
+      "section": "Page 6 — extrait 2",
+      "content": "✔️\nD. L’autonomie\n    Correction : Les facteurs d’hygiène préviennent l’insatisfaction (salaire, conditions de\ntravail) mais ne motivent pas directement.\n\n5. Le leadership situationnel (Hersey & Blanchard) recommande :\nA. D’utiliser toujours le même style de leadership\nB. D’adapter le style selon la maturité des collaborateurs\nC. De déléguer totalement la prise de décision\n                                                          ✅\n✔️\nD. D’impliquer tout le monde dans toutes les décisions\n    Correction : Le leader efficace adapte son comportement au niveau de compétence et de\nmotivation de ses collaborateurs.\n\n6\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 7,
+      "section": "Page 7 — extrait 1",
+      "content": "6. Un manager autocratique :\nA. Encourage la participation de tous\nB. Laisse les employés décider seuls\nC. Prend seul les décisions sans consultation  ✅\n✔️\nD. Favorise la délégation totale\n    Correction : Le style autocratique centralise l’autorité et limite la participation des\nsubordonnés.\n\n7. La communication non verbale comprend :\nA. Les mots prononcés\nB. Le ton de la voix et la posture\nC. Le contenu du message écrit\n                                  ✅\n✔️\nD. Les objectifs de l’entreprise\n    Correction : Le non-verbal englobe les gestes, la voix, la posture et le regard, éléments\nessentiels du leadership.\n\n✅\n8. Le leadership transactionnel repose sur :\nA. La récompense et la sanction\nB. La vision à long terme\nC. L’inspiration et la confiance\n\n✔️\nD. L’innovation\n    Correction : Le leader transactionnel établit un échange clair : performance contre\nrécompense, sanction en cas d’échec.\n\n9. Un conflit de rôle apparaît lorsque :\nA. Un salarié ne comprend pas les objectifs\nB. Les tâches attribuées sont contradictoires ✅\nC. Les ressources matérielles sont insuffisantes\n\n✔️\nD. Les délais sont trop longs\n    Correction : Le conflit de rôle survient quand un collaborateur reçoit des consignes\nincompatibles ou contradictoires.\n\n10. Un bon leader de projet doit avant tout :\nA. Être autoritaire\nB. Motiver et donner du sens à l’action collective\nC. Éviter les réunions\n                                                    ✅\n✔️\nD. Contrôler chaque détail du travail\n    Correction : Le leader de projet inspire, motive et donne du sens, tout en laissant de\nl’autonomie à son équipe.",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 7,
+      "section": "Page 7 — extrait 2",
+      "content": "🧮 Barème indicatif :\nQuestion Bonne réponse Points\n1        B            2\n2        C            2\n                                                7\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 8,
+      "section": "Page 8 — extrait 1",
+      "content": "Question Bonne réponse Points\n3        B            2\n4        C            2\n5        B            2\n6        C            2\n7        B            2\n8        A            2\n9        B            2\n10       B            2\nTotal    —            20 points\n\n🧭DuréeÉvaluation finale – Management et Leadership\n        : 2 heures\nType : QCM (20 questions)\nBarème : 1 point par question — Total : 20 points\nConsigne : Cochez la bonne réponse. Une seule bonne réponse par question.\n\n🧩1. LePartie   I : Concepts fondamentaux du management et du leadership\n         management vise principalement à :\n\nB. Planifier, organiser, diriger et contrôler les activités ✅\n A. Inspirer et motiver les employés\n\nC. Créer une vision partagée\n\n✔️le contrôle\n D. Gérer uniquement les ressources humaines\n       Correction : Le management s’appuie sur la planification, l’organisation, la direction et\n               pour atteindre les objectifs.\n\n2. Le leadership se distingue du management par :\nA. L’accent mis sur la structure hiérarchique\nB. L’accent mis sur l’influence et la vision\nC. Le contrôle des processus\n                                             ✅\n✔️\nD. L’autorité formelle\n    Correction : Le leader influence et inspire, tandis que le manager contrôle et organise.",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 8,
+      "section": "Page 8 — extrait 2",
+      "content": "3. Selon Peter Drucker, le rôle principal du manager est :\nA. De contrôler les employés\nB. D’obtenir des résultats à travers les autres\nC. D’être charismatique\n                                               ✅\n✔️\nD. De faire plaisir à la direction\n    Correction : Le manager atteint les objectifs de l’organisation grâce à la performance de\nson équipe.\n\n4. Un leader transformationnel :\nA. Donne des ordres clairs et précis\nB. Fait adhérer ses collaborateurs à une vision commune\nC. Se concentre uniquement sur les résultats\n                                                           ✅\nD. Laisse les collaborateurs travailler sans supervision\n\n5. Le leadership transactionnel repose sur :\n\n8\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 9,
+      "section": "Page 9 — extrait 1",
+      "content": "A. L’échange récompense / sanction\nB. La confiance et la délégation\n                                     ✅\nC. L’inspiration collective\nD. L’innovation\n\n🧩6. Dans\n     Partie II : Théories et styles de leadership\n         le modèle de Hersey et Blanchard, le leadership doit être :\n\nB. Adapté à la maturité des collaborateurs ✅\n A. Autoritaire en tout temps\n\nC. Centré sur la tâche uniquement\nD. Invariable\n\n7. Un leader autocratique :\n\n✅\nA. Consulte systématiquement son équipe\nB. Centralise toutes les décisions\nC. Favorise la créativité\nD. Évite toute communication\n\n8. Le leadership participatif permet :\nA. D’améliorer la motivation et la cohésion\nB. De réduire la productivité\n                                              ✅\nC. De renforcer l’autorité du chef\nD. D’exclure la délégation\n\n9. Le leadership délégatif convient lorsque :\nA. L’équipe est peu compétente\nB. L’équipe est compétente et motivée\nC. Le projet débute\n                                      ✅\nD. Les objectifs sont flous\n\n10. Le leadership charismatique repose sur :\nA. La communication persuasive et la confiance\nB. Le contrôle des subordonnés\n                                                    ✅\nC. Le pouvoir hiérarchique\nD. L’isolement du leader\n\n🧩11. Partie III : Motivation et gestion d’équipe\n     Selon Maslow, le besoin d’estime correspond à :\n\nB. La reconnaissance et la valorisation ✅\n A. La sécurité et la stabilité\n\nC. L’appartenance à un groupe\nD. La réalisation personnelle",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 9,
+      "section": "Page 9 — extrait 2",
+      "content": "12. La théorie bifactorielle de Herzberg distingue :\nA. Les facteurs internes et externes\nB. Les facteurs de motivation et d’hygiène\nC. Les besoins de base et supérieurs\n                                          ✅\nD. Les besoins matériels et spirituels\n\n9\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 10,
+      "section": "Page 10 — extrait 1",
+      "content": "13. Dans la théorie de Vroom, la motivation dépend :\nA. De la culture d’entreprise\nB. Des attentes de réussite et des récompenses perçues\nC. Des sanctions et des primes\n                                                      ✅\nD. Du style de direction\n\n14. Le chef de projet motivant :\nA. Implique son équipe et reconnaît les efforts\nB. Fait preuve d’autorité permanente\n                                                  ✅\nC. Délègue tout sans suivi\nD. Évite les réunions\n\nA. Une communication ouverte et claire   ✅\n15. La gestion efficace d’une équipe projet nécessite :\n\nB. Des réunions rares\nC. Une hiérarchie rigide\nD. Des ordres stricts et un contrôle permanent\n\n🧩16. Partie IV : Communication et gestion de conflits\n     La communication non verbale inclut :\n\nB. Le ton, la gestuelle et le regard ✅\n A. Le langage écrit\n\nC. Les procédures de travail\nD. Le contenu technique du message\n\n17. La cause la plus fréquente de conflit dans une équipe projet est :\nA. La diversité des compétences\nB. Un manque de communication\nC. Le salaire trop élevé\n                                  ✅\nD. Les délais trop courts\n\n18. Pour résoudre un conflit, un bon leader doit :\nA. Ignorer les tensions\nB. Écouter activement et rechercher une solution gagnant-gagnant\nC. Imposer sa décision\n                                                                   ✅\nD. Punir les deux parties\n\n19. Le modèle de Thomas-Kilmann propose :\nA. Des styles de communication\nB. Cinq modes de gestion de conflit\nC. Des théories de motivation\n                                     ✅\nD. Des étapes de planification",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Management et Leadership",
+      "page": 10,
+      "section": "Page 10 — extrait 2",
+      "content": "A. Implique son équipe dans la transition ✅\n20. En situation de changement, un leader efficace :\n\nB. Improvise sans plan\nC. Résiste au changement\n\n🎓\nD. Évite de communiquer",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 10,
+      "section": "Page 10 — extrait 1",
+      "content": "COURS : Gestion des Compétences\n                                              10\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 11,
+      "section": "Page 11 — extrait 1",
+      "content": "Niveau : Licence 3 – Gestion de Projet\n                         Volume horaire indicatif : 30 à 40 heures\n                                  Crédits : 4 à 6 ECTS\n\n🎯\n1. Objectifs du cours\n    Objectif général\nComprendre les enjeux, outils et méthodes de la gestion des compétences dans les\n\n🎯\norganisations, en particulier dans le pilotage de projets.\n    Objectifs spécifiques\nÀ la fin du cours, l’étudiant doit être capable de :\n     Identifier les compétences clés d’un individu et d’une organisation.\n     Mettre en place une cartographie des compétences d’un projet.\n     Élaborer un plan de développement des compétences (formation, mobilité,\n        mentorat).\n     Comprendre le lien entre compétences, performance et employabilité.\n     Intégrer la gestion des compétences dans la gestion de projet et la stratégie RH.\n\n2. Plan du cours détaillé\nChapitre 1 : Introduction à la gestion des compétences\n     Définition de la compétence : savoir, savoir-faire, savoir-être.\n     Différence entre qualification, compétence et potentiel.\n     Enjeux actuels : compétitivité, innovation, adaptation au changement.\n     Gestion des compétences dans le contexte de projet (équipe temporaire, multi-\n       expertise).\n\nChapitre 2 : Le référentiel de compétences\n   Objectif et structure d’un référentiel de compétences.\n   Méthodes d’élaboration (analyse des postes, entretiens, observation).\n   Exemple : référentiel des compétences d’un chef de projet.\n   Outils : matrices de compétences, grilles d’évaluation, bilans professionnels.",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 11,
+      "section": "Page 11 — extrait 2",
+      "content": "Chapitre 3 : Identification et évaluation des compétences\n   L’entretien professionnel et le bilan de compétences.\n   Autoévaluation, feedback 360°, évaluations par les pairs.\n   Indicateurs de performance liés aux compétences.\n   Utilisation des compétences comme levier d’évolution interne.\n\nChapitre 4 : Développement et mobilisation des compétences\n   Formation, tutorat, coaching, e-learning.\n   Gestion de la mobilité interne et plans de succession.\n   Apprentissage organisationnel et partage de connaissances.\n   Gestion de la motivation liée à la montée en compétence.\n\nChapitre 5 : Gestion des compétences et gestion de projet\n   Constitution d’une équipe projet selon les compétences clés.\n   Suivi des compétences pendant le projet.\n   Transfert de compétences à la clôture du projet.\n   Outils numériques : bases de données, logiciels RH, GPEC.\n\n11\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 12,
+      "section": "Page 12 — extrait 1",
+      "content": "Chapitre 6 : Gestion prévisionnelle des emplois et des compétences (GPEC)\n   Définition et cadre légal (France, UE, Afrique francophone).\n   Étapes d’une démarche GPEC : diagnostic, plan d’action, suivi.\n   Liens entre stratégie d’entreprise, RH et gestion de projet.\n   Cas pratique : mise en œuvre d’une GPEC dans une entreprise de services.\n\nChapitre 7 : Tendances actuelles\n   Digitalisation de la gestion des compétences (SI RH, IA).\n   Soft skills, agilité et employabilité.\n   Compétences transversales et interculturelles dans les projets internationaux.\n   Responsabilité sociale et inclusion dans la gestion des talents.\n\n3. Méthodes pédagogiques\n     Cours magistraux illustrés.\n     Études de cas réels (entreprises, ONG, projets).\n     Simulations et jeux de rôles (entretiens d’évaluation, bilans de compétences).\n     Travail de groupe : création d’un référentiel de compétences pour un projet fictif.\n\n🧭PartieÉVALUATION  (Durée : 2 heures)\n         I — QCM (10 questions, 1 pt chacune)\n   1. Une compétence se définit comme :\n      A. Un diplôme obtenu\n      B. Un ensemble de savoir, savoir-faire et savoir-être\n      C. Un poste occupé\n                                                              ✅\n      D. Une expérience passée",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 12,
+      "section": "Page 12 — extrait 2",
+      "content": "2. La différence principale entre compétence et qualification est :\n      A. La compétence est liée à un poste, la qualification à la personne\n      B. La qualification est formelle, la compétence est observable en action\n      C. Il n’y a aucune différence\n                                                                                 ✅\n      D. La compétence dépend uniquement des diplômes\n\n3. L’outil le plus utilisé pour représenter les compétences d’une équipe est :\n      A. Le planning de Gantt\n      B. La matrice de compétences\n      C. Le diagramme de Pareto\n                                      ✅\n      D. La courbe de performance\n\n4. Le bilan de compétences a pour but de :\n      A. Évaluer la performance d’un projet\n      B. Identifier les atouts et les axes d’évolution d’un individu\n      C. Mesurer la rentabilité financière\n                                                                       ✅\n      D. Évaluer la satisfaction client\n\n5. Dans la GPEC, le diagnostic sert à :\n      A. Évaluer les écarts entre compétences disponibles et nécessaires\n      B. Former immédiatement les employés\n                                                                           ✅\n      C. Créer un organigramme\n      D. Recruter de nouveaux salariés\n                                              12\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 13,
+      "section": "Page 13 — extrait 1",
+      "content": "6. Les “soft skills” désignent :\n      A. Les compétences techniques\n      B. Les compétences comportementales\n      C. Les compétences linguistiques\n                                                ✅\n      D. Les compétences numériques\n\nA. Des actions de formation et de suivi   ✅\n   7. Un plan de développement des compétences comprend :\n\nB. Un plan comptable\n      C. Des sanctions disciplinaires\n      D. Des mesures de réduction des coûts\n\n8. La mobilité interne favorise :\n      A. L’augmentation du salaire uniquement\n      B. Le développement des compétences et la fidélisation\n      C. Le départ des employés\n                                                                   ✅\n      D. La diminution des responsabilités\n\n9. Dans une équipe projet, la complémentarité des compétences permet :\n      A. D’éviter toute communication\n      B. De réduire la productivité\n      C. D’améliorer la performance collective\n      D. De supprimer le besoin de supervision\n                                                   ✅\n   10. L’entretien professionnel est obligatoire en entreprise :\n       A. Tous les ans\n       B. Tous les deux ans\n       C. Tous les cinq ans\n                             ✅\n       D. À la demande du salarié",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 13,
+      "section": "Page 13 — extrait 2",
+      "content": "Partie II — Cas pratique (10 points)\nSujet :\nVous êtes chef de projet dans une entreprise de conseil.\nVotre équipe de 6 personnes montre des écarts de compétences : certains sont experts\ntechniques mais peu communicatifs, d’autres très relationnels mais manquent d’autonomie.\nQuestions :\n    1. Identifiez les compétences techniques et comportementales clés pour ce projet. (4 pts)\n    2. Proposez trois actions de développement des compétences. (3 pts)\n    3. Expliquez comment vous assurerez le suivi et la valorisation de ces compétences. (3\n        pts)\n\n✅1. Compétences\n     Correction attendue :\n                 clés :\n      Techniques : planification, analyse de données, reporting.\n      Comportementales : communication, collaboration, autonomie.\n2. Actions de développement :\n     Formation interne et mentorat.\n     Ateliers de communication et feedback.\n\n13\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 14,
+      "section": "Page 14 — extrait 1",
+      "content": " Attribution progressive de responsabilités.\n3. Suivi :\n     Entretiens réguliers, matrices de progression, valorisation dans le plan de carrière.\n→ Total : 10 pts\n\n🎓Niveau\n    Évaluation Finale – Gestion des Compétences\n        : Licence 3 — Gestion de Projet\nDurée : 2 heures\nType d’évaluation : Questions de réflexion + Cas pratique\nBarème : /20 points\nConsignes :\n    Lisez attentivement les questions.\n    Argumentez vos réponses de manière claire et structurée.\n    Donnez des exemples concrets issus d’expériences, de stages ou de projets.\n\n🧩1. (2PARTIE\n       pts)\n             I — Questions de cours (10 points)\n\nExpliquez la différence entre compétence individuelle et compétence collective.\n\n✅\nDonnez un exemple dans un projet.\n   Correction attendue :\n    Compétence individuelle : savoir, savoir-faire et savoir-être mobilisés par une\n       personne dans une situation donnée.\n    Compétence collective : capacité d’une équipe à combiner et mobiliser les\n       compétences de chacun pour atteindre un objectif commun.\n    Exemple : un ingénieur maîtrise la planification (individuel), l’équipe entière\n\n➡️     coordonne les tâches efficacement (collectif).\n   Barème : 1 pt distinction + 1 pt exemple pertinent.\n\n2. (2 pts)\n\n✅\nQuelles sont les étapes principales de la gestion des compétences dans une organisation ?\n    Correction attendue :\n    1. Identification des compétences existantes.\n    2. Définition des compétences requises (référentiel).\n    3. Analyse des écarts (diagnostic).\n    4. Plan d’action (formation, mobilité, recrutement).",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 14,
+      "section": "Page 14 — extrait 2",
+      "content": "➡️  5. Évaluation et suivi.\n    Barème : 0,5 pt par étape correctement citée (max 2 pts).\n\n3. (2 pts)\n\n✅\nCitez et expliquez deux outils de gestion des compétences utilisés en entreprise.\n    Correction attendue :\n     Matrice de compétences : tableau croisant les membres de l’équipe et leurs niveaux\n        sur chaque compétence.\n     Bilan de compétences : dispositif d’évaluation individuel pour identifier les forces et\n\n➡️      besoins de développement.\n    Barème : 1 pt par outil bien expliqué.\n\n14\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 15,
+      "section": "Page 15 — extrait 1",
+      "content": "4. (2 pts)\nEn quoi la GPEC (Gestion Prévisionnelle des Emplois et des Compétences) est-elle utile à la\n\n✅\ngestion de projet ?\n    Correction attendue :\n     Elle anticipe les besoins en compétences pour les projets à venir.\n     Elle aide à adapter les effectifs et les formations.\n\n➡️   Elle garantit la disponibilité des bons profils au bon moment.\n    Barème : argumentation claire et complète (2 pts).\n\n5. (2 pts)\nQuelles différences faites-vous entre savoir, savoir-faire et savoir-être ?\n\n✅\nDonnez un exemple de chacun.\n    Correction attendue :\n     Savoir : connaissances théoriques (ex : connaître la méthode Agile).\n     Savoir-faire : application pratique (ex : planifier un sprint).\n\n➡️   Savoir-être : comportement (ex : travail d’équipe, communication).\n    Barème : 1,5 pt pour distinctions claires + 0,5 pt pour exemples pertinents.\n\n🧭SujetPARTIE\n        :\n             II — Cas pratique (10 points)\n\nVous êtes chef de projet dans une entreprise de services numériques.\nVotre équipe de 5 personnes travaille sur un projet de développement d’une application\nmobile.\nAprès 4 mois, vous remarquez :\n    une baisse de motivation,\n    des tensions entre les développeurs et le designer,\n    un manque de compétences en gestion de temps et en communication.\nVous décidez de mettre en place une démarche de gestion des compétences.\n\nQuestions :\n1. (3 pts)\nIdentifiez les compétences techniques et comportementales nécessaires pour mener ce\n\n✅\nprojet à bien.\n    Correction attendue :\n     Techniques : développement mobile, UX/UI design, planification, tests qualité.",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 15,
+      "section": "Page 15 — extrait 2",
+      "content": "➡️\n     Comportementales : communication, coopération, gestion du temps, esprit d’équipe.\n            Barème : 1,5 pt techniques + 1,5 pt comportementales.\n\n2. (3 pts)\nProposez trois actions concrètes pour développer les compétences manquantes dans votre\n\n✅\néquipe.\n    Correction attendue :\n     Formation courte sur la gestion du temps et la communication.\n     Organisation d’ateliers collaboratifs pour renforcer la cohésion.\n\n➡️\n     Mise en place d’un binômage entre profils expérimentés et juniors.\n           Barème : 1 pt par action pertinente.\n\n15\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 16,
+      "section": "Page 16 — extrait 1",
+      "content": "3. (2 pts)\nQuels outils pourriez-vous utiliser pour suivre l’évolution des compétences au cours du\n\n✅\nprojet ?\n    Correction attendue :\n     Matrice de compétences mise à jour régulièrement.\n     Entretien individuel mensuel.\n\n➡️\n     Feedback 360° après chaque phase du projet.\n           Barème : 0,5 pt par outil pertinent (max 2 pts).\n\n4. (2 pts)\nExpliquez comment la valorisation des compétences acquises peut améliorer la motivation\n\n✅\nde votre équipe.\n    Correction attendue :\n     Reconnaissance du travail accompli (feedback, remerciement public).\n     Valorisation dans le plan de carrière ou primes de performance.\n\n➡️\n     Sentiment de progression personnelle → engagement renforcé.\n           Barème : argumentation complète = 2 pts.\n\n🧮Partie\n    BARÈME GLOBAL\n         Intitulé Points\nI     Questions de cours /10\nII    Cas pratique       /10\nTotal —                  /20 points\n\n🎓Niveau\n    Évaluation Finale – Gestion des Compétences\n        : Licence 3 — Gestion de Projet\nDurée : 2 heures\nType d’évaluation : Questions de réflexion + Cas pratique\nBarème : /20 points\nConsignes :\n    Lisez attentivement les questions.\n    Argumentez vos réponses de manière claire et structurée.\n    Donnez des exemples concrets issus d’expériences, de stages ou de projets.\n\n🧩1. (2PARTIE\n       pts)\n             I — Questions de cours (10 points)\n\nExpliquez la différence entre compétence individuelle et compétence collective.",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 16,
+      "section": "Page 16 — extrait 2",
+      "content": "✅\nDonnez un exemple dans un projet.\n   Correction attendue :\n    Compétence individuelle : savoir, savoir-faire et savoir-être mobilisés par une\n       personne dans une situation donnée.\n    Compétence collective : capacité d’une équipe à combiner et mobiliser les\n       compétences de chacun pour atteindre un objectif commun.\n    Exemple : un ingénieur maîtrise la planification (individuel), l’équipe entière\n\n➡️     coordonne les tâches efficacement (collectif).\n   Barème : 1 pt distinction + 1 pt exemple pertinent.\n\n2. (2 pts)\n                                            16\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 17,
+      "section": "Page 17 — extrait 1",
+      "content": "✅\nQuelles sont les étapes principales de la gestion des compétences dans une organisation ?\n   Correction attendue :\n   1. Identification des compétences existantes.\n   2. Définition des compétences requises (référentiel).\n   3. Analyse des écarts (diagnostic).\n   4. Plan d’action (formation, mobilité, recrutement).\n\n➡️ 5. Évaluation et suivi.\n   Barème : 0,5 pt par étape correctement citée (max 2 pts).\n\n3. (2 pts)\n\n✅\nCitez et expliquez deux outils de gestion des compétences utilisés en entreprise.\n    Correction attendue :\n     Matrice de compétences : tableau croisant les membres de l’équipe et leurs niveaux\n        sur chaque compétence.\n     Bilan de compétences : dispositif d’évaluation individuel pour identifier les forces et\n\n➡️      besoins de développement.\n    Barème : 1 pt par outil bien expliqué.\n\n4. (2 pts)\nEn quoi la GPEC (Gestion Prévisionnelle des Emplois et des Compétences) est-elle utile à la\n\n✅\ngestion de projet ?\n    Correction attendue :\n     Elle anticipe les besoins en compétences pour les projets à venir.\n     Elle aide à adapter les effectifs et les formations.\n\n➡️   Elle garantit la disponibilité des bons profils au bon moment.\n    Barème : argumentation claire et complète (2 pts).\n\n5. (2 pts)\nQuelles différences faites-vous entre savoir, savoir-faire et savoir-être ?\n\n✅\nDonnez un exemple de chacun.\n    Correction attendue :\n     Savoir : connaissances théoriques (ex : connaître la méthode Agile).\n     Savoir-faire : application pratique (ex : planifier un sprint).",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 17,
+      "section": "Page 17 — extrait 2",
+      "content": "➡️   Savoir-être : comportement (ex : travail d’équipe, communication).\n    Barème : 1,5 pt pour distinctions claires + 0,5 pt pour exemples pertinents.\n\n🧭SujetPARTIE\n        :\n             II — Cas pratique (10 points)\n\nVous êtes chef de projet dans une entreprise de services numériques.\nVotre équipe de 5 personnes travaille sur un projet de développement d’une application\nmobile.\nAprès 4 mois, vous remarquez :\n    une baisse de motivation,\n    des tensions entre les développeurs et le designer,\n    un manque de compétences en gestion de temps et en communication.\nVous décidez de mettre en place une démarche de gestion des compétences.\n\nQuestions :\n1. (3 pts)\n\n17\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 18,
+      "section": "Page 18 — extrait 1",
+      "content": "Identifiez les compétences techniques et comportementales nécessaires pour mener ce\n\n✅\nprojet à bien.\n    Correction attendue :\n     Techniques : développement mobile, UX/UI design, planification, tests qualité.\n\n➡️\n     Comportementales : communication, coopération, gestion du temps, esprit d’équipe.\n            Barème : 1,5 pt techniques + 1,5 pt comportementales.\n\n2. (3 pts)\nProposez trois actions concrètes pour développer les compétences manquantes dans votre\n\n✅\néquipe.\n    Correction attendue :\n     Formation courte sur la gestion du temps et la communication.\n     Organisation d’ateliers collaboratifs pour renforcer la cohésion.\n\n➡️\n     Mise en place d’un binômage entre profils expérimentés et juniors.\n           Barème : 1 pt par action pertinente.\n\n3. (2 pts)\nQuels outils pourriez-vous utiliser pour suivre l’évolution des compétences au cours du\n\n✅\nprojet ?\n    Correction attendue :\n     Matrice de compétences mise à jour régulièrement.\n     Entretien individuel mensuel.\n\n➡️\n     Feedback 360° après chaque phase du projet.\n           Barème : 0,5 pt par outil pertinent (max 2 pts).\n\n4. (2 pts)\nExpliquez comment la valorisation des compétences acquises peut améliorer la motivation\n\n✅\nde votre équipe.\n    Correction attendue :\n     Reconnaissance du travail accompli (feedback, remerciement public).\n     Valorisation dans le plan de carrière ou primes de performance.\n\n➡️\n     Sentiment de progression personnelle → engagement renforcé.\n           Barème : argumentation complète = 2 pts.",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 18,
+      "section": "Page 18 — extrait 2",
+      "content": "🧭 QCM – Gestion des Compétences\nNiveau : Licence 3 — Gestion de Projet\nDurée : 2 heures\nBarème : 1 point par question (20 points au total)\nConsignes :\n    Cochez une seule réponse par question.\n    Justifiez brièvement si nécessaire (bonus possible).\n\n🧩 Partie I — Concepts fondamentaux\n1. Une compétence est :\nA. Une connaissance théorique\nB. Une capacité à mobiliser savoir, savoir-faire et savoir-être   ✅\n                                               18\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 19,
+      "section": "Page 19 — extrait 1",
+      "content": "C. Une tâche attribuée\n\n✔️\nD. Une expérience professionnelle\n   Correction : Une compétence combine des savoirs, des savoir-faire et des comportements\nadaptés à une situation donnée.\n\n2. Le savoir-être correspond à :\nA. La maîtrise technique\nB. L’attitude et le comportement au travail\nC. Les connaissances théoriques\n                                              ✅\nD. L’expérience terrain\n\n3. La compétence collective désigne :\nA. La somme des compétences individuelles\nB. La capacité du groupe à coopérer et à combiner ses savoirs\nC. La compétence du chef d’équipe\n                                                                  ✅\nD. L’expertise d’un service RH\n\n4. La gestion des compétences vise principalement à :\nA. Motiver les employés\nB. Adapter les compétences aux besoins de l’entreprise\nC. Remplacer les salariés inefficaces\n                                                          ✅\nD. Réduire les coûts salariaux\n\n✅\n5. Dans la logique de gestion de projet, la compétence clé du chef de projet est :\nA. Savoir déléguer et mobiliser son équipe\nB. Maîtriser tous les langages techniques\nC. Travailler seul pour gagner du temps\nD. Imposer son autorité\n\n🧩 Partie II — Outils et démarches\n6. La matrice de compétences permet de :\nA. Suivre l’avancement des tâches\nB. Identifier les compétences présentes dans une équipe\nC. Déterminer le budget du projet\n                                                              ✅\nD. Classer les documents techniques",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 19,
+      "section": "Page 19 — extrait 2",
+      "content": "7. Le bilan de compétences a pour objectif de :\nA. Mesurer la rentabilité d’un projet\nB. Identifier les aptitudes et motivations d’un salarié\nC. Évaluer la satisfaction client\n                                                          ✅\nD. Affecter des tâches au hasard\n\n8. Dans la GPEC, la première étape consiste à :\nA. Recruter du personnel\nB. Diagnostiquer les compétences existantes et futures    ✅\n                                                19\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 20,
+      "section": "Page 20 — extrait 1",
+      "content": "C. Former tous les salariés\nD. Fixer les salaires\n\n✅\n9. Le référentiel de compétences sert à :\nA. Répertorier les compétences nécessaires à un poste\nB. Gérer les absences\nC. Rédiger le plan de communication\nD. Évaluer la satisfaction\n\n✅\n10. La mobilité interne est un outil de :\nA. Motivation et développement des compétences\nB. Sanction disciplinaire\nC. Réduction des effectifs\nD. Gestion comptable\n\n🧩 Partie III — Théories et pratiques\n11. Selon Zarifian, une compétence est :\nA. Une aptitude statique liée au poste\nB. Une prise d’initiative dans une situation professionnelle\nC. Une accumulation de diplômes\n                                                               ✅\nD. Un comportement social\n\n12. Dans la pyramide de Maslow, la formation continue répond principalement au\nbesoin :\nA. De sécurité\nB. D’accomplissement personnel\nC. Physiologique\n                                  ✅\nD. D’appartenance\n\n✅\n13. Les soft skills désignent :\nA. Les compétences comportementales\nB. Les compétences informatiques\nC. Les diplômes universitaires\nD. Les langues étrangères\n\n✅\n14. L’outil “feedback 360°” permet :\nA. D’évaluer une personne à partir de multiples points de vue\nB. De mesurer la satisfaction client\nC. De planifier les congés\nD. De fixer les objectifs financiers\n\n15. Un plan de développement des compétences comprend :\n\n20\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 21,
+      "section": "Page 21 — extrait 1",
+      "content": "A. Un plan de formation et de suivi individuel\nB. Une grille de salaire\n                                                 ✅\nC. Un planning de production\nD. Une étude de marché\n\n🧩 Partie IV — Gestion de projet et compétences\nA. De renforcer la performance collective ✅\n16. Dans un projet, la complémentarité des compétences permet :\n\nB. De réduire le nombre d’employés\nC. D’éviter la communication\nD. De supprimer la hiérarchie\n\n✅\n17. Le rôle du chef de projet dans la gestion des compétences est de :\nA. Identifier, développer et valoriser les talents\nB. Imposer ses décisions\nC. Gérer uniquement le budget\nD. Contrôler la comptabilité\n\n18. L’entretien professionnel est obligatoire :\nA. Tous les ans\nB. Tous les deux ans\nC. Tous les cinq ans\n                     ✅\nD. À la demande du salarié\n\n✅\n19. La capitalisation des compétences consiste à :\nA. Documenter et partager les savoirs acquis dans le projet\nB. Garder les connaissances pour soi\nC. Supprimer les rapports finaux\nD. Limiter les échanges\n\n20. L’intelligence collective dans une équipe projet :\nA. Se base sur la hiérarchie stricte\nB. Résulte de la coopération et du partage des compétences\nC. Empêche la créativité\n                                                              ✅\nD. Supprime le besoin de leadership",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 21,
+      "section": "Page 21 — extrait 2",
+      "content": "🧮 Grille de correction\nN° Réponse N° Réponse N° Réponse N° Réponse\n1 B        6 B          11 B         16 A\n2 B        7 B          12 B         17 A\n3 B        8 B          13 A         18 B\n4 B        9 A          14 A         19 A\n5 A        10 A         15 A         20 B\nBarème :\n    1 pt par bonne réponse → total /20 points\n                                             21\n<PARSED TEXT FOR",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    },
+    {
+      "document_id": "cours-gestion-projet-licence-2026-11-27",
+      "title": "Cours gestion de projet licence — support source",
+      "course": "Gestion des compétences",
+      "page": 22,
+      "section": "Page 22 — extrait 1",
+      "content": "   Bonus de +1 pt pour justification pertinente ou exemple concret.\n\n💡 Critères d’évaluation complémentaire (si justification demandée)\n                 Critère                 Points max\nConnaissance des concepts                8\nPertinence des justifications            6\nEsprit d’analyse / application en projet 4\nClarté et structure                      2\n\n22",
+      "source_path": "docs/cours/source-integrale-cours-gestion-projet-licence.md",
+      "validation_status": "EXTRACTION_A_VERIFIER"
+    }
+  ]
 }
