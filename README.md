@@ -88,7 +88,7 @@ Le schéma de référence proposé pour la bibliothèque privée et la persistan
 
 ## Bibliothèque documentaire — premier incrément
 
-Une première interface de catalogue est accessible sur `/bibliotheque`, avec une route `GET /api/library` et une recherche littérale dans les passages présents dans l'index versionné. Le catalogue et l'index sont dans `docs/catalogues/`. Le corpus initial ne contient encore aucun support source ni passage indexé : les collections affichées reflètent uniquement le périmètre pédagogique recensé. Voir `docs/architecture/ETAT_IMPLEMENTATION_BIBLIOTHEQUE.md`.
+Une première interface de catalogue est accessible sur `/bibliotheque`, avec une route `GET /api/library` et une recherche littérale dans les passages présents dans l'index versionné. Le catalogue et l'index sont dans `docs/catalogues/`. Le corpus contient désormais une transcription textuelle source de 22 pages et 43 passages indexés pour les deux cours. Le statut reste « à vérifier » jusqu'à contrôle de fidélité par rapport au DOCX. Les développements pédagogiques détaillés rédigés dans la conversation (chapitres enrichis et corrigés complémentaires) ne sont pas encore archivés dans cette branche : ils devront être ajoutés séparément, sans être confondus avec le support source. Voir `docs/architecture/ETAT_IMPLEMENTATION_BIBLIOTHEQUE.md`.
 
 ## Statut de la bibliothèque documentaire et du connecteur MCP
 
