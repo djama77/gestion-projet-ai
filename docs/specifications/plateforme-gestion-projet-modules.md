@@ -1,111 +1,89 @@
-# Plateforme Gestion-Projet-AI — périmètre fonctionnel cible
+# Gestion-Projet-AI — plateforme personnelle d'apprentissage universitaire
 
-## 1. Vision
-Faire évoluer le dépôt pédagogique vers une plateforme universitaire d'apprentissage et de mise en pratique de la gestion de projet. Le corpus GitHub constitue la référence documentaire versionnée. Les fonctions applicatives ne sont déclarées opérationnelles qu'après implémentation et tests.
+## 1. Vision et utilisateur principal
 
-## 2. Espaces fonctionnels
+Gestion-Projet-AI est d'abord l'assistant d'étude d'un étudiant inscrit en Licence en Sciences de Gestion, parcours Gestion de projet. L'application doit aider l'étudiant à apprendre les cours de chaque unité d'enseignement (UE), comprendre les notions, s'entraîner, préparer ses devoirs et réaliser ses travaux pratiques.
 
-### A. Académie et cours
-- Catalogue des cours, matières, niveaux et chapitres réellement présents.
-- Lecture structurée des cours, objectifs pédagogiques, notions, exemples et synthèses.
-- Progression par chapitre : à découvrir, en cours, maîtrisé, à réviser.
-- Fiches de révision, glossaire et cartes de notions.
-- Liens explicites entre compétences, chapitres, exercices et évaluations.
+L'étudiant reste l'auteur et l'acteur de son apprentissage. L'application explique, guide, corrige, évalue et propose des remédiations. Elle ne doit pas se substituer à sa compréhension ni présenter une production IA comme un travail personnel déjà vérifié.
 
-### B. Tuteur IA documentaire
-- Expliquer une notion en langage simple, puis proposer un approfondissement universitaire.
-- Répondre à partir des passages retrouvés dans le corpus et citer le document, la version, la section et la page vérifiée.
-- Séparer clairement extrait du cours, explication de l'IA et complément externe.
-- Signaler les lacunes du corpus au lieu d'inventer une réponse.
-- Conserver le contexte du cours sélectionné et permettre de changer de chapitre.
+## 2. Organisation pédagogique par UE
 
-### C. Devoirs et évaluations
-- Importer un sujet PDF, DOCX ou image selon les formats effectivement pris en charge.
-- Identifier les consignes et les questions sans modifier le sujet original.
-- Produire une correction détaillée : compréhension, méthode, raisonnement, réponse et justification.
-- Distinguer corrigé officiel, réponse présente dans le support et corrigé IA indicatif.
-- Proposer une rédaction universitaire naturelle et personnalisable, sans masquer l'origine des idées ni fabriquer des références.
-- Générer une grille d'autoévaluation et des exercices de remédiation.
+- Chaque UE possède sa fiche, ses cours, ses chapitres, ses objectifs et ses ressources.
+- Chaque chapitre peut proposer : cours structuré, définitions, notions essentielles, formules, exemples, résumé, glossaire, exercices et quiz.
+- Les supports de l'étudiant et les consignes de l'enseignant sont les références prioritaires.
+- Le programme officiel, les intitulés, les chapitres et les évaluations ne sont jamais inventés. Une maquette de travail ou une proposition IA doit être étiquetée comme telle.
+- L'étudiant peut sélectionner une UE puis un chapitre ; les réponses de l'assistant restent dans ce contexte jusqu'à changement explicite.
 
-### D. Travaux pratiques (TP)
-- Préparer un TP à partir des objectifs et notions du cours.
-- Structurer : contexte, objectifs, prérequis, consignes, démarche, livrables et critères d'évaluation.
-- Fournir un modèle de rapport modifiable.
-- Séparer le sujet du TP, l'aide méthodologique et le corrigé indicatif.
-- Ne pas inventer de données de terrain ou de résultats expérimentaux.
+## 3. Apprendre un cours
 
-### E. Atelier de gestion de projet
-Les outils suivants doivent être utilisables sur des cas d'étude pédagogiques :
-- Charte et note de cadrage du projet.
-- Analyse des parties prenantes et matrice RACI.
-- Objectifs SMART et cadre logique.
-- Découpage du travail (WBS), activités, jalons et diagramme de Gantt.
-- Estimation des coûts, budget prévisionnel et suivi des dépenses.
-- Registre des risques : probabilité, impact, réponse, responsable et statut.
-- Plan de communication et compte rendu de réunion.
-- Suivi des indicateurs, résultats, livrables et écarts.
-- Tableau de bord synthétique et rapport périodique.
-- Capitalisation des leçons apprises et clôture du projet.
+Pour chaque UE et chaque chapitre, l'étudiant peut demander :
+1. Une explication progressive, du niveau débutant au niveau universitaire.
+2. Les définitions et concepts à connaître.
+3. Les formules, variables, unités et étapes de calcul lorsqu'il y en a.
+4. Des exemples pratiques liés au cours.
+5. Un résumé fidèle au support et une fiche de révision.
+6. Des exercices progressifs et quiz avec correction expliquée.
+7. Une vérification de compréhension et des exercices de remédiation.
 
-Ces outils sont des modules cibles. Les calculs, formules et indicateurs devront être vérifiés par des tests avant toute utilisation dans un contexte réel.
+L'application distingue clairement le contenu extrait du support, les explications pédagogiques et les compléments externes.
 
-### F. Révision et suivi des compétences
-- Évaluation diagnostique par compétence.
-- Exercices progressifs et quiz formatifs.
-- Historique des tentatives et feedback explicatif.
-- Révisions espacées configurables.
-- Tableau de progression individuel.
-- Recommandations de remédiation justifiées par les résultats observés.
+## 4. Correction des devoirs pour chaque UE
 
-## 3. Principes pédagogiques
-- Partir du cours sélectionné et des sources disponibles.
-- Adapter le niveau de détail à la demande : découverte, explication, approfondissement ou application.
-- Décomposer les raisonnements et expliciter les méthodes.
-- Utiliser des exemples de gestion de projet, notamment des cas contextualisés lorsque les sources le permettent.
-- Distinguer apprentissage, entraînement et évaluation.
-- Ne jamais qualifier un corrigé d'officiel sans preuve explicite.
+L'étudiant peut joindre un sujet, ses consignes, son barème et, si disponible, le cours correspondant. L'assistant doit :
+- préserver les consignes originales ;
+- analyser chaque question séparément ;
+- retrouver les notions et chapitres utiles de l'UE ;
+- expliquer la méthode et le raisonnement ;
+- proposer une correction détaillée question par question ;
+- corriger la réponse rédigée par l'étudiant et signaler les erreurs ;
+- fournir une grille d'autoévaluation et les points à retravailler.
 
-## 4. Architecture logique cible
-1. Interface web responsive.
-2. Authentification et gestion des espaces autorisés.
-3. Catalogue des documents et versions.
-4. Stockage privé des originaux.
-5. Extraction PDF/DOCX et OCR optionnel.
-6. Index plein texte avec références de pages et sections.
-7. Service de recherche documentaire.
-8. Orchestrateur pédagogique et outils de gestion de projet.
-9. Connecteur MCP en lecture seule pour les assistants externes.
-10. Journalisation, contrôle d'accès, sauvegarde et observabilité.
+Les rendus distinguent le corrigé officiel attesté par une source, une réponse présente dans le support et une proposition de correction pédagogique de l'IA. Aucun corrigé IA ne doit être qualifié d'officiel.
 
-Le choix des fournisseurs et les coûts doivent être évalués avant toute création de service ou migration. Le corpus GitHub et la bibliothèque privée ne doivent pas être confondus : les supports publics autorisés peuvent être versionnés dans Git ; les documents personnels ou confidentiels doivent rester dans un stockage privé.
+## 5. Accompagnement et correction des TP pour chaque UE
 
-## 5. Rôles envisagés
-- Apprenant : consulter les cours, réaliser les exercices et suivre sa progression.
-- Enseignant/tuteur : valider des ressources et consulter les travaux autorisés.
-- Gestionnaire de contenu : contrôler les imports, métadonnées et versions.
-- Administrateur : gérer les accès, paramètres et journaux.
+Pour chaque TP, l'application doit proposer :
+1. Lecture et décomposition des consignes.
+2. Identification des objectifs et notions du cours à mobiliser.
+3. Guide de réalisation étape par étape.
+4. Méthodes, formules, outils et modèles adaptés au sujet.
+5. Aide à l'analyse des données et aux calculs lorsque le sujet en fournit.
+6. Relecture du travail de l'étudiant : fond, méthode, calculs, structure et langue.
+7. Correction pédagogique détaillée, critères de réussite et pistes d'amélioration.
+8. Proposition de structure de rapport ou de livrable modifiable si demandée.
 
-Les permissions doivent être appliquées côté serveur, au niveau de chaque ressource.
+Ne jamais fabriquer des données de terrain, des résultats ou des observations. Les exemples fictifs doivent être explicitement identifiés comme simulés.
 
-## 6. Indicateurs de pilotage
-- Nombre de documents reçus, validés et publiés.
-- Taux de réussite des extractions et nombre de pages nécessitant OCR.
-- Part des passages indexés avec provenance complète.
-- Taux de réponses du tuteur accompagnées de sources vérifiables.
-- Nombre de recherches sans résultat.
-- Progression par compétence et par chapitre.
-- Taux de réussite aux tests fonctionnels et de sécurité.
-- Temps de traitement par document et coût éventuel des services externes.
+## 6. Bibliothèque de cours
 
-Aucun indicateur ne doit être affiché comme mesuré tant qu'une collecte réelle et une méthode de calcul ne sont pas en place.
+La bibliothèque sert à conserver et retrouver les supports d'étude par UE, matière, chapitre et type de document : cours, exercices, devoirs, TP, corrigés, annexes. Elle doit conserver l'original, ses versions et la provenance des passages. Un document importé n'est considéré comme assimilé qu'après extraction et indexation contrôlées.
 
-## 7. Hors périmètre tant que non validé
-- Publication automatique d'un corrigé comme corrigé officiel.
-- Partage public par défaut des documents importés.
-- Écriture dans le dépôt GitHub par le connecteur MCP.
-- Connexion universelle à tous les assistants IA.
-- Déploiement d'un fournisseur payant sans validation.
-- Présentation des modules spécifiés comme déjà disponibles.
+La recherche documentaire doit fournir les références réellement disponibles : document, version, chapitre/section et page si vérifiée. Si la réponse n'est pas soutenue par le corpus, l'application le dit et sépare tout complément externe.
 
-## 8. Critère général de réussite
-Un apprenant peut sélectionner un chapitre réellement publié, retrouver les passages sources, demander une explication, réaliser un devoir ou un TP, puis obtenir un retour pédagogique traçable. Un utilisateur peut également appliquer les méthodes apprises à un projet d'exemple au moyen d'outils de planification et de suivi vérifiés.
+## 7. Progression de l'étudiant
+
+- Progression par UE et par chapitre.
+- Historique des exercices, devoirs et TP travaillés.
+- Compétences acquises, notions fragiles et erreurs récurrentes.
+- Recommandations de révision basées sur les résultats réellement observés.
+- Quiz de révision et entraînements avant évaluation.
+
+Ne pas afficher de note, de compétence maîtrisée ou de progression sans données de travail réelles.
+
+## 8. Priorités de développement
+
+P0 — Organisation du catalogue par UE et chapitres ; import et consultation fiable des supports ; assistant de cours fondé sur les sources.
+
+P1 — Devoirs par UE : analyse du sujet, correction détaillée, correction de la copie de l'étudiant, autoévaluation.
+
+P2 — TP par UE : guide pas à pas, aide aux calculs et livrables, relecture et correction pédagogique.
+
+P3 — Quiz, fiches de révision, suivi des acquis et remédiation.
+
+## 9. Hors périmètre principal
+
+La gestion opérationnelle de projets réels pour des organisations (pilotage d'un portefeuille, suivi de contrats, budgets institutionnels ou tableaux de bord professionnels) n'est pas l'objectif principal de l'application. Les outils WBS, Gantt, RACI, budget et risques ne sont conservés que comme supports d'apprentissage et exercices pratiques liés aux cours, s'ils sont utiles à une UE.
+
+## 10. Critère général de réussite
+
+Pour chaque UE effectivement documentée, l'étudiant peut étudier les cours, poser des questions, s'exercer, envoyer un devoir ou un TP, recevoir une correction expliquée et comprendre ses erreurs à partir des supports et consignes disponibles. L'application signale clairement les ressources manquantes et les corrections indicatives.
