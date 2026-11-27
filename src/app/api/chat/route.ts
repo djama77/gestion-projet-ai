@@ -49,7 +49,7 @@ export async function POST(request: Request) {
     const safeSources = (sourcePages ?? []).map((page: { name?: string; page?: number; text?: string }) => {
       if (typeof page.name !== "string" || typeof page.page !== "number" || typeof page.text !== "string") throw new Error("Source documentaire invalide.");
       return `[Document : ${page.name.slice(0, 180)} | Segment ${page.page}]\n${page.text.slice(0, 2400)}`;
-    }).join("\n\n").slice(0, 48000);
+    }).join("\n\n").slice(0, 120000);
 
     const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
     const completion = await client.chat.completions.create({
