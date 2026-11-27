@@ -24,9 +24,9 @@ export async function POST(request: Request) {
     const budget = str(b.budget, 100);
     const chapter = str(b.chapter, 180);
     const draft = str(b.draft, 18000);
-    if (!["plan","chapitre","relecture"].includes(mode) || !["Licence 1","Licence 2","Licence 3"].includes(level)) return NextResponse.json({error:"Mode ou niveau invalide."},{status:400});
+    if (!["plan","chapitre","relecture","evaluation"].includes(mode) || !["Licence 1","Licence 2","Licence 3"].includes(level)) return NextResponse.json({error:"Mode ou niveau invalide."},{status:400});
     if (mode!=="relecture" && theme.length<8) return NextResponse.json({error:"Précise un thème de projet (au moins quelques mots)."}, {status:400});
-    if (mode==="relecture" && draft.length<30) return NextResponse.json({error:"Colle un texte suffisamment développé pour permettre une relecture."},{status:400});
+    if ((mode==="relecture" || mode==="evaluation") && draft.length<30) return NextResponse.json({error:"Colle un texte suffisamment développé pour permettre une relecture."},{status:400});
 
     const system = [
       "Tu es un directeur pédagogique et spécialiste de la gestion de projet qui accompagne un étudiant de Licence en français clair.",
@@ -47,7 +47,7 @@ export async function POST(request: Request) {
       "DURÉE : "+duration, "BUDGET : "+(budget||"à estimer avec hypothèses"), "PARTIE : "+chapter,
       "TEXTE À RELIRE : "+draft
     ].join("\n");
-    const task = mode==="plan"
+    const task = mode==="evaluation"\n      ? "Évalue ce mémoire comme un encadreur de Licence Gestion de Projet. Attribue une note indicative sur 20, critère par critère, avec ce barème strict : pertinence du sujet et problématique /3 ; méthodologie /3 ; maîtrise des outils de gestion de projet (SWOT, SMART, cadre logique, WBS, Gantt, budget, risques, parties prenantes selon pertinence) /4 ; données, analyse et preuves /3 ; cohérence objectifs-résultats-activités-indicateurs-délais-budget /3 ; recommandations et conclusion /2 ; présentation, structure et références /2. Pour chaque critère, donne points obtenus/maximum, justification précise et corrections nécessaires. Calcule correctement le total. Distingue les défauts documentaires des erreurs de fond. N’accorde pas de points pour des données ou sources inventées ; signale toute affirmation non vérifiable. Termine par les cinq priorités de révision. La note est indicative et ne remplace pas la décision de l’encadreur.\n      : mode==="plan"
       ? "Construis un plan détaillé et personnalisé du mémoire, du préliminaire aux annexes. Pour chaque chapitre et sous-section, explique ce qu'il faut écrire, quelles données sont nécessaires, quels outils de gestion de projet mobiliser et quels tableaux/annexes préparer. Formule une problématique, une question centrale, un objectif général, 3 à 5 objectifs spécifiques et des résultats attendus cohérents. Termine par une feuille de route de rédaction."
       : mode==="chapitre"
       ? "Rédige un brouillon substantiel et structuré de la partie demandée, avec titres numérotés, transitions, tableaux utiles en format Markdown si nécessaire, et explications accessibles. Signale les données à collecter avec des marqueurs. Assure la cohérence avec le thème et le niveau."
@@ -61,7 +61,7 @@ export async function POST(request: Request) {
     });
     const content = completion.choices[0]?.message?.content?.trim();
     if (!content) return NextResponse.json({error:"Aucun contenu n'a été généré."},{status:502});
-    const warnings = ["Brouillon pédagogique : fais valider le plan et les choix méthodologiques par ton encadreur.",
+    const warnings = ["Brouillon pédagogique : fais valider le plan, les choix méthodologiques et toute note indicative par ton encadreur.",
       "Les éléments entre crochets doivent être documentés. Aucun chiffre, entretien ou résultat de terrain ne doit être inventé.",
       "Vérifie les références bibliographiques et l'actualité des données avant dépôt."];
     return NextResponse.json({content,warnings});
