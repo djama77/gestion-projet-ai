@@ -47,3 +47,15 @@ Plateforme cloud-first, accessible sur Internet et adaptée aux ordinateurs, tab
 - `docs/architecture/`
 
 Les corrigés indicatifs ne remplacent pas les corrections officielles de l'établissement.
+
+
+## Nouveaux modules spécifiés
+
+Les spécifications fonctionnelles et techniques des évolutions sont disponibles dans :
+
+- `docs/specifications/assistant-devoirs-corriges.md` : analyse des sujets, corrigés pédagogiques détaillés et propositions de rédaction universitaire humanisée.
+- `docs/specifications/generateur-tp.md` : préparation des TP, guide de réalisation, brouillon modifiable et correction séparée.
+- `docs/architecture/assimilation-continue-des-cours.md` : import, extraction, classement prudent, versionnage, indexation et recherche des nouveaux cours.
+- `docs/roadmap/devoirs-tp-et-bibliotheque.md` : phases de réalisation et critères de validation.
+
+Ces documents constituent des spécifications et une feuille de route. Les modules d'import documentaire, de recherche dans les cours, de génération de TP et d'export DOCX/PDF ne sont pas encore déclarés opérationnels. Les réponses devront distinguer les sources du cours, les explications de l'IA et les compléments externes.
