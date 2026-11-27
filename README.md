@@ -72,6 +72,20 @@ Une première étape permet de sélectionner un PDF, d'extraire le texte page pa
 - La recherche durable, les comptes utilisateurs, les exports DOCX/PDF et le suivi de progression restent à développer.
 - Le contexte transmis au tuteur est limité ; le prototype ne garantit pas la récupération de tous les passages d'un cours volumineux.
 
+## Atelier pratique de gestion de projet (premier lot)
+
+Une première interface de mise en pratique est disponible sur la route `/atelier` :
+- WBS : découpage des activités, responsables, dates et avancement ;
+- Gantt : représentation visuelle des périodes saisies ;
+- RACI : attribution R/A/C/I par activité ;
+- Budget : prévision, dépenses enregistrées et écarts ;
+- Risques : probabilité, impact, score, réponse et statut ;
+- tableau de bord calculé à partir des données saisies.
+
+**Limite importante :** dans ce premier lot, les données de l'atelier sont sauvegardées dans le navigateur courant. L'export/import JSON permet une sauvegarde manuelle. La synchronisation cloud multi-appareils n'est pas encore opérationnelle. Le Gantt ne calcule pas encore les dépendances ni le chemin critique.
+
+Le schéma de référence proposé pour la bibliothèque privée et la persistance des projets est dans `supabase/schema.sql`. Il n'a pas été appliqué à un projet Supabase. Voir `docs/architecture/MISE_EN_SERVICE_PERSISTANCE_CLOUD.md` avant toute activation.
+
 ## Statut de la bibliothèque documentaire et du connecteur MCP
 
 Les spécifications décrivent une bibliothèque privée, versionnée et un connecteur MCP en lecture seule. Elles ne signifient pas que le stockage, l'indexation, l'authentification, le serveur MCP ou un fournisseur cloud sont déjà configurés. Le choix du fournisseur et les éventuels coûts doivent être validés avant leur activation. La compatibilité MCP doit être vérifiée client par client.
