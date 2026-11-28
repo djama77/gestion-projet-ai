@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 type Mode = "plan" | "chapitre" | "relecture" | "evaluation";
 type Result = { content: string; warnings: string[] };
@@ -68,7 +69,7 @@ export default function MemoirePage() {
   }
 
   return <main style={{maxWidth:1000,margin:"0 auto",padding:"28px 20px 60px",color:"#172b4d"}}>
-    <a href="/" style={{color:"#2457d6",textDecoration:"none"}}>← Retour à l'accueil</a>
+    <Link href="/" style={{color:"#2457d6",textDecoration:"none"}}>← Retour à l&apos;accueil</Link>
     <p style={{fontSize:11,letterSpacing:".16em",fontWeight:700,color:"#2457d6",marginTop:30}}>ATELIER UNIVERSITAIRE · LICENCE GESTION DE PROJET</p>
     <h1 style={{fontSize:"clamp(32px,5vw,48px)",lineHeight:1.08,margin:"12px 0"}}>Construire mon mémoire de Licence</h1>
     <p style={{color:"#66758b",lineHeight:1.7,maxWidth:760}}>Un assistant qui t’accompagne de la formulation du sujet jusqu’aux annexes : plan, rédaction, relecture, évaluation indicative sur 20 et export Word.</p>
@@ -96,7 +97,7 @@ export default function MemoirePage() {
       {error && <p style={{color:"#b42318"}}>{error}</p>}
     </section>
     {result && <section style={{background:"#fff",border:"1px solid #e4eaf2",borderRadius:16,padding:22,marginTop:18}}>
-      <h2 style={{marginTop:0}}>Résultat de l'assistant</h2>
+      <h2 style={{marginTop:0}}>Résultat de l&apos;assistant</h2>
       {result.warnings.map((w,i)=><p key={i} style={{background:"#fff8e8",padding:10,borderRadius:8,fontSize:13}}>{w}</p>)}
       <pre style={{whiteSpace:"pre-wrap",fontFamily:"inherit",lineHeight:1.75,fontSize:14}}>{result.content}</pre>
       <div style={{display:"flex",gap:10,flexWrap:"wrap"}}><button onClick={()=>navigator.clipboard.writeText(result.content)} style={{background:"#172b4d",color:"#fff",border:0,borderRadius:8,padding:"10px 14px",cursor:"pointer"}}>Copier le texte</button><button onClick={exportWord} disabled={exporting} style={{background:"#16704a",color:"#fff",border:0,borderRadius:8,padding:"10px 14px",cursor:"pointer",opacity:exporting?0.6:1}}>{exporting?"Création du Word…":"Exporter en Word (.docx)"}</button></div>
