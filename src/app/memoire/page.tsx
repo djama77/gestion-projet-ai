@@ -102,7 +102,7 @@ export default function MemoirePage() {
       <pre style={{whiteSpace:"pre-wrap",fontFamily:"inherit",lineHeight:1.75,fontSize:14}}>{result.content}</pre>
       <div style={{display:"flex",gap:10,flexWrap:"wrap"}}><button onClick={()=>navigator.clipboard.writeText(result.content)} style={{background:"#172b4d",color:"#fff",border:0,borderRadius:8,padding:"10px 14px",cursor:"pointer"}}>Copier le texte</button><button onClick={exportWord} disabled={exporting} style={{background:"#16704a",color:"#fff",border:0,borderRadius:8,padding:"10px 14px",cursor:"pointer",opacity:exporting?0.6:1}}>{exporting?"Création du Word…":"Exporter en Word (.docx)"}</button></div>
     </section>}
-    <p style={{fontSize:12,color:"#7a8798",lineHeight:1.6,marginTop:20}}>Important : l'assistant produit un brouillon pédagogique. Il ne fabrique pas de données de terrain, de sources ou de références bibliographiques. Toute donnée simulée est signalée comme telle ; les chiffres, citations et choix méthodologiques doivent être vérifiés et validés par ton encadreur.</p>
+    <p style={{fontSize:12,color:"#7a8798",lineHeight:1.6,marginTop:20}}>Important : l&apos;assistant produit un brouillon pédagogique. Il ne fabrique pas de données de terrain, de sources ou de références bibliographiques. Toute donnée simulée est signalée comme telle ; les chiffres, citations et choix méthodologiques doivent être vérifiés et validés par ton encadreur.</p>
   </main>;
 }
 
